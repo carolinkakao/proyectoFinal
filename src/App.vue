@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-       <b-button variant="danger">Button</b-button>
+      <h1>Carolina</h1>
+
     </div>
     <router-view />
   </div>
