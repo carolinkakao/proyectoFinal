@@ -5,7 +5,7 @@
     <router-link to="/">Home</router-link> |
       <router-link to="/login">Login</router-link>
       <router-link to="/carrito">Carrito</router-link>
-      <h1>soy home</h1>
+      <h1>soy home <font-awesome-icon :icon="['fas','shopping-cart']"/></h1>
   </div>
 </template>
 
