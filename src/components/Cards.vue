@@ -165,9 +165,9 @@
 import Avatar from "@/components/Avatar.vue";
 
 export default {
-  name: "Cards",
-  components: {
-    Avatar,
-  },
+    name: "Cards",
+    components: {
+        Avatar,
+    },
 };
 </script>
