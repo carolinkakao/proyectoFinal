@@ -1,0 +1,173 @@
+<template>
+    <b-container fluid>
+        <b-row>
+            <!-- Card API -->
+            <b-col cols="3">
+                <!-- Card 1 -->
+                <b-card
+                    title="API"
+                    style="max-width: 20rem; height: 100%;"
+                    class="my-auto"
+                    >
+                    <b-card-text>
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </b-card-text>
+                </b-card>
+            </b-col>
+            <!-- Card productos y Avatar-->
+            <b-col cols="9">
+                <b-row>
+                    <!-- Avatar -->
+                    <Avatar />
+                    <!-- Card 1 -->
+                    <b-card
+                        title="Card Title"
+                        img-src="https://picsum.photos/600/300/?image=25"
+                        img-alt="Image"
+                        img-top
+                        tag="article"
+                        style="max-width: 14rem;"
+                        class=""
+                        >
+                        <b-card-text>
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </b-card-text>
+                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                    </b-card>
+                    <!-- Card 2 -->
+                    <b-card
+                        title="Card Title"
+                        img-src="https://picsum.photos/600/300/?image=25"
+                        img-alt="Image"
+                        img-top
+                        tag="article"
+                        style="max-width: 14rem;"
+                        class=""
+                        >
+                        <b-card-text>
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </b-card-text>
+                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                    </b-card>
+                    <!-- Card 3 -->
+                    <b-card
+                        title="Card Title"
+                        img-src="https://picsum.photos/600/300/?image=25"
+                        img-alt="Image"
+                        img-top
+                        tag="article"
+                        style="max-width: 14rem;"
+                        class=""
+                        >
+                        <b-card-text>
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </b-card-text>
+                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                    </b-card>
+                    <!-- Card 4 -->
+                    <b-card
+                        title="Card Title"
+                        img-src="https://picsum.photos/600/300/?image=25"
+                        img-alt="Image"
+                        img-top
+                        tag="article"
+                        style="max-width: 14rem;"
+                        class=""
+                        >
+                        <b-card-text>
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </b-card-text>
+                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                    </b-card>
+                    <!-- Card 5 -->
+                    <b-card
+                        title="Card Title"
+                        img-src="https://picsum.photos/600/300/?image=25"
+                        img-alt="Image"
+                        img-top
+                        tag="article"
+                        style="max-width: 14rem;"
+                        class=""
+                        >
+                        <b-card-text>
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </b-card-text>
+                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                    </b-card>
+                    <!-- Card 5 -->
+                    <b-card
+                        title="Card Title"
+                        img-src="https://picsum.photos/600/300/?image=25"
+                        img-alt="Image"
+                        img-top
+                        tag="article"
+                        style="max-width: 14rem;"
+                        class=""
+                        >
+                        <b-card-text>
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </b-card-text>
+                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                    </b-card>
+                    <!-- Card 5 -->
+                    <b-card
+                        title="Card Title"
+                        img-src="https://picsum.photos/600/300/?image=25"
+                        img-alt="Image"
+                        img-top
+                        tag="article"
+                        style="max-width: 14rem;"
+                        class=""
+                        >
+                        <b-card-text>
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </b-card-text>
+                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                    </b-card>
+                    <!-- Card 5 -->
+                    <b-card
+                        title="Card Title"
+                        img-src="https://picsum.photos/600/300/?image=25"
+                        img-alt="Image"
+                        img-top
+                        tag="article"
+                        style="max-width: 14rem;"
+                        class=""
+                        >
+                        <b-card-text>
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </b-card-text>
+                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                    </b-card>
+                    <!-- Card 5 -->
+                    <b-card
+                        title="Card Title"
+                        img-src="https://picsum.photos/600/300/?image=25"
+                        img-alt="Image"
+                        img-top
+                        tag="article"
+                        style="max-width: 14rem;"
+                        class=""
+                        >
+                        <b-card-text>
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </b-card-text>
+                        <b-button href="#" variant="primary">Go somewhere</b-button>
+                    </b-card>
+
+                </b-row>
+            </b-col>
+        </b-row>
+    </b-container>
+</template>
+
+<script>
+import Avatar from "@/components/Avatar.vue";
+
+export default {
+  name: "Cards",
+  components: {
+    Avatar,
+  },
+};
+</script>
