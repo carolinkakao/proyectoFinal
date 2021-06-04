@@ -1,24 +1,16 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <!--<HelloWorld msg="Welcome to Your Vue.js App" />-->
-    <router-link to="/">Home</router-link> |
-      <router-link to="/login">Login</router-link>
-      <router-link to="/carrito">Carrito</router-link>
-      <h1>soy home <font-awesome-icon :icon="['fas','shopping-cart']"/></h1>
-  </div>
+    <div>
+        <Navbar />
+    </div>
 </template>
 
 <script>
-// @ is an alias to /src
-//import HelloWorld from "@/components/HelloWorld.vue";
+import Navbar from "@/components/Navbar.vue";
 
 export default {
-  name: "Home",
-  /*
-  components: {
-    HelloWorld,
-  },
-  */
+    name: "Home",
+    components: {
+        Navbar,
+    },
 };
 </script>
