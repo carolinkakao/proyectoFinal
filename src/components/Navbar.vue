@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-navbar toggleable="lg" type="dark" variant="info">
+        <b-navbar toggleable="lg" type="dark" variant="info" class="fixed-top p-3">
             <!-- Link Home -->
             <router-link to="/" style="text-decoration: none; color: #FFF;">
                 Logo
@@ -11,7 +11,7 @@
             <b-collapse id="nav-collapse" is-nav class="justify-content-end">
                 <b-navbar-nav class="nav">
                     <!-- Link login -->
-                    <router-link to="/login" style="text-decoration: none; color: #FFF;">
+                    <router-link to="/login" style="text-decoration: none; color: #FFF;" class="me-3">
                         Login
                     </router-link>
                     <!-- Link carrito -->

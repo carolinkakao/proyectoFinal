@@ -1,5 +1,5 @@
 <template>
-    <b-container fluid>
+    <b-container fluid class="my-3 pt-5">
         <b-row>
             <!-- Card API -->
             <b-col cols="3">
@@ -27,7 +27,7 @@
                         img-top
                         tag="article"
                         style="max-width: 14rem;"
-                        class=""
+                        class="mt-3 mx-2"
                         >
                         <b-card-text>
                             Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -42,7 +42,7 @@
                         img-top
                         tag="article"
                         style="max-width: 14rem;"
-                        class=""
+                        class="mt-3 mx-2"
                         >
                         <b-card-text>
                             Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -57,7 +57,7 @@
                         img-top
                         tag="article"
                         style="max-width: 14rem;"
-                        class=""
+                        class="mt-3 mx-2"
                         >
                         <b-card-text>
                             Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -72,7 +72,7 @@
                         img-top
                         tag="article"
                         style="max-width: 14rem;"
-                        class=""
+                        class="mt-3 mx-2"
                         >
                         <b-card-text>
                             Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -87,14 +87,14 @@
                         img-top
                         tag="article"
                         style="max-width: 14rem;"
-                        class=""
+                        class="mt-3 mx-2"
                         >
                         <b-card-text>
                             Some quick example text to build on the card title and make up the bulk of the card's content.
                         </b-card-text>
                         <b-button href="#" variant="primary">Go somewhere</b-button>
                     </b-card>
-                    <!-- Card 5 -->
+                    <!-- Card 6 -->
                     <b-card
                         title="Card Title"
                         img-src="https://picsum.photos/600/300/?image=25"
@@ -102,14 +102,14 @@
                         img-top
                         tag="article"
                         style="max-width: 14rem;"
-                        class=""
+                        class="mt-3 mx-2"
                         >
                         <b-card-text>
                             Some quick example text to build on the card title and make up the bulk of the card's content.
                         </b-card-text>
                         <b-button href="#" variant="primary">Go somewhere</b-button>
                     </b-card>
-                    <!-- Card 5 -->
+                    <!-- Card 7 -->
                     <b-card
                         title="Card Title"
                         img-src="https://picsum.photos/600/300/?image=25"
@@ -117,14 +117,14 @@
                         img-top
                         tag="article"
                         style="max-width: 14rem;"
-                        class=""
+                        class="mt-3 mx-2"
                         >
                         <b-card-text>
                             Some quick example text to build on the card title and make up the bulk of the card's content.
                         </b-card-text>
                         <b-button href="#" variant="primary">Go somewhere</b-button>
                     </b-card>
-                    <!-- Card 5 -->
+                    <!-- Card 8 -->
                     <b-card
                         title="Card Title"
                         img-src="https://picsum.photos/600/300/?image=25"
@@ -132,14 +132,14 @@
                         img-top
                         tag="article"
                         style="max-width: 14rem;"
-                        class=""
+                        class="mt-3 mx-2"
                         >
                         <b-card-text>
                             Some quick example text to build on the card title and make up the bulk of the card's content.
                         </b-card-text>
                         <b-button href="#" variant="primary">Go somewhere</b-button>
                     </b-card>
-                    <!-- Card 5 -->
+                    <!-- Card 9 -->
                     <b-card
                         title="Card Title"
                         img-src="https://picsum.photos/600/300/?image=25"
@@ -147,7 +147,7 @@
                         img-top
                         tag="article"
                         style="max-width: 14rem;"
-                        class=""
+                        class="mt-3 mx-2"
                         >
                         <b-card-text>
                             Some quick example text to build on the card title and make up the bulk of the card's content.
