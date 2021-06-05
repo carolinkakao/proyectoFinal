@@ -14,6 +14,14 @@
                     <router-link to="/login" style="text-decoration: none; color: #FFF;" class="me-3">
                         Login
                     </router-link>
+                     <!-- Link productos -->
+                    <router-link to="/productos" style="text-decoration: none; color: #FFF;" class="me-3">
+                        Productos
+                    </router-link>
+                     <!-- Link Inventarios -->
+                    <router-link to="/inventario" style="text-decoration: none; color: #FFF;" class="me-3">
+                        Inventario
+                    </router-link>
                     <!-- Link carrito -->
                     <router-link to="/carrito" style="color: #FFF;">
                         <font-awesome-icon :icon="['fas','shopping-cart']"/>
