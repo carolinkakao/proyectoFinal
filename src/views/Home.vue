@@ -1,9 +1,9 @@
 <template>
-    <div>
-        <Navbar />
-        <Cards />
-        <Footer />
-    </div>
+  <div>
+    <Navbar />
+    <Cards />
+    <Footer />
+  </div>
 </template>
 
 <script>
@@ -12,11 +12,11 @@ import Cards from "@/components/Cards.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
-    name: "Home",
-    components: {
-        Navbar,
-        Cards,
-        Footer,
-    },
+  name: "Home",
+  components: {
+    Navbar,
+    Cards,
+    Footer,
+  },
 };
 </script>
