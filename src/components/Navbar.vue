@@ -12,21 +12,29 @@
         <b-collapse id="nav-collapse" is-nav class="justify-content-end">
           <b-navbar-nav>
             <!-- Link login -->
-            <router-link to="/login" class="hola nav-link me-3">
-              Login
-            </router-link>
+            <b-nav-item>
+              <router-link to="/login" class="me-3">
+                Login
+              </router-link>
+            </b-nav-item>
             <!-- Link productos -->
-            <router-link to="/productos" class="nav-link me-3">
-              Productos
-            </router-link>
+            <b-nav-item>
+              <router-link to="/productos" class="me-3">
+                Productos
+              </router-link>
+            </b-nav-item>
             <!-- Link Inventarios -->
-            <router-link to="/inventario" class="nav-link me-3">
-              Inventario
-            </router-link>
+            <b-nav-item>
+              <router-link to="/inventario" class="me-3">
+                Inventario
+              </router-link>
+            </b-nav-item>
             <!-- Link carrito -->
-            <router-link to="/carrito" class="nav-link">
-              <font-awesome-icon :icon="['fas', 'shopping-cart']" />
-            </router-link>
+            <b-nav-item>
+              <router-link to="/carrito">
+                <font-awesome-icon :icon="['fas', 'shopping-cart']" />
+              </router-link>
+            </b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-container>
@@ -45,4 +53,11 @@ div {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
-</style>>
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #009BDF;
+}
+</style>
