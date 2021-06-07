@@ -18,8 +18,6 @@
       <!-- Card productos y Avatar-->
       <b-col cols="9">
         <b-row>
-          <!-- Avatar -->
-          <Avatar />
           <!-- Card 1 -->
           <b-card
             title="Card Title"
@@ -171,12 +169,8 @@
 </template>
 
 <script>
-import Avatar from "@/components/Avatar.vue";
 
 export default {
   name: "Cards",
-  components: {
-    Avatar,
-  },
 };
 </script>
