@@ -37,7 +37,6 @@
     <h1 class="text-uppercase display-4">Duel Store</h1>
     <!-- Íconos-->
     <div>
-      <!-- <i class="fas fa-angle-double-left"></i> -->
       <i class="fas fa-minus"></i>
       <i class="fas fa-minus"></i>
       <i class="fas fa-minus"></i>
