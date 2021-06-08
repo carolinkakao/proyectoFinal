@@ -1,6 +1,11 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import Login from "../views/Login.vue";
+import Acerca from "../views/Acerca.vue";
+import Anuncios from "../views/Anuncios.vue";
+import Inscripciones from "../views/Inscripciones.vue";
+import Torneos from "../views/Torneos.vue";
 
 Vue.use(VueRouter);
 
@@ -11,48 +16,38 @@ const routes = [
     component: Home,
   },
   {
+    path: "/acerca",
+    name: "Acerca",
+    component: Acerca,
+  },
+  {
+    path: "/anuncios",
+    name: "Anuncios",
+    component: Anuncios,
+  },
+  {
+    path: "/inscripciones",
+    name: "Inscripciones",
+    component: Inscripciones,
+  },
+  {
+    path: "/torneos",
+    name: "Torneos",
+    component: Torneos,
+  },
+  {
     path: "/login",
     name: "Login",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "login" */ "../views/Login.vue"),
+    component: Login,
   },
   {
-    path: "/carrito",
-    name: "Carrito",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "carrito" */ "../views/Carrito.vue"),
-  },
-  {
-    path: "/productos",
-    name: "Productos",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "productos" */ "../views/Productos.vue"),
-  },
-  {
-    path: "/inventario",
-    name: "Inventario",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "inventario" */ "../views/Inventario.vue"),
-  },
- 
+    path: "*",
+    redirect: "/"
+  },  
 ];
-
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
   routes,
 });
-
 export default router;

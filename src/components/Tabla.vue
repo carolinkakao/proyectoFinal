@@ -9,26 +9,27 @@
     sort-desc.sync="false"
     sort-direction="asc"
   
-  
     >
-      <template #cell(actions)="row">
-        <b-button size="sm" class="my-1  " variant="danger" @click="info(row)">
+    //items-fila(prop) fields-encabezado(prop)
+    //si no existe no se va a mostrar
+    //prop sort-desc +sort-direction es para orden ascendente de los datos
+    //scope row(fila), slot
+      <template #cell(actions)="row"> 
+        <b-button size="sm" class="my-1  " variant="danger" @click="borrar(row.item)">
           Eliminar
         </b-button>
-        <b-button size="sm" class="my-1 m-3" variant="success" @click="info(row)">
+        <b-button size="sm" class="my-1 m-3" variant="success" @click="editar(row.item)" >
           Editar
         </b-button>
       </template>
     </b-table>
-
-    <!--agregar componenete-->
     
 </template>
 
 
 
 <script>
-
+import {  mapActions, mapMutations } from "vuex";
   export default {
     name: "Tabla",
     data() {
@@ -36,18 +37,27 @@
         ordenarPor: "",
       };
     },
-    methods:{
-      info(row){
-        console.log("el id",row);
-      }
-    },props:{
-      filas:{
+    
+    props:{
+      filas:{ //fila es la prop , es u objeto, filas y encabezados se pasa en b-table 
         type:Array,
       },
       encabezados:{
         type:Array,
       }
-    }
+    },
+    methods:{
+      borrar(productoBorrado){
+        this.deleteProducto(productoBorrado)
+      },
+     editar(juguete) {
+      this.booleanEditar();
+      this.editarJuguete(juguete);
+    },
+      ...mapActions(["deleteProducto"]),
+       ...mapMutations(["booleanEditar", "editarJuguete"]),
+    },
+ 
    
   }
 </script>

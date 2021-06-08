@@ -11,28 +11,34 @@
 
         <b-collapse id="nav-collapse" is-nav class="justify-content-end">
           <b-navbar-nav>
-            <!-- Link login -->
+            <!-- Link acerca -->
             <b-nav-item>
-              <router-link to="/login" class="me-3">
+              <router-link to="/acerca" class="me-3">
+                Acerca
+              </router-link>
+            </b-nav-item>
+            <!-- Link inscripciones -->
+            <b-nav-item>
+              <router-link to="/inscripciones" class="me-3">
+                Inscripciones
+              </router-link>
+            </b-nav-item>
+            <!-- Link anuncios -->
+            <b-nav-item>
+              <router-link to="/anuncios" class="me-3">
+                Anuncios
+              </router-link>
+            </b-nav-item>
+            <!-- Link torneos -->
+            <b-nav-item>
+              <router-link to="/torneos">
+                Torneos
+              </router-link>
+            </b-nav-item>
+             <!-- Link login -->
+            <b-nav-item>
+              <router-link to="/login">
                 Login
-              </router-link>
-            </b-nav-item>
-            <!-- Link productos -->
-            <b-nav-item>
-              <router-link to="/productos" class="me-3">
-                Productos
-              </router-link>
-            </b-nav-item>
-            <!-- Link Inventarios -->
-            <b-nav-item>
-              <router-link to="/inventario" class="me-3">
-                Inventario
-              </router-link>
-            </b-nav-item>
-            <!-- Link carrito -->
-            <b-nav-item>
-              <router-link to="/carrito">
-                <font-awesome-icon :icon="['fas', 'shopping-cart']" />
               </router-link>
             </b-nav-item>
           </b-navbar-nav>

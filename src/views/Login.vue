@@ -17,14 +17,14 @@
       <b-input-group-prepend is-text>
         <b-icon icon="person-fill"></b-icon>
       </b-input-group-prepend>
-      <b-form-input type="text" placeholder="Usuario"></b-form-input>
+      <b-form-input v-model="correo" type="text" placeholder="Usuario"></b-form-input>
     </b-input-group>
      <!--input-contraseña-->
       <b-input-group class="mb-2">
       <b-input-group-prepend is-text>
         <b-icon icon="lock-fill"></b-icon>
       </b-input-group-prepend>
-      <b-form-input type="text" placeholder="Contraseña"></b-form-input>
+      <b-form-input v-model="contrasena" type="text" placeholder="Contraseña"></b-form-input>
     </b-input-group>
         <div>
     <b-form-checkbox
@@ -38,7 +38,7 @@
   </div>
   
 
-        <b-button  variant="success" class=" boton-entrar me-3 mt-4"
+        <b-button @click="login()" variant="success" class=" boton-entrar me-3 mt-4"
           >Inicio Sesión</b-button>
          
 
@@ -49,6 +49,35 @@
     </b-row>
   </b-container>
 </template>
+<script>
+import { mapActions } from "vuex"
+export default {
+  name: "Login",
+    computed: {
+       contrasena: {
+      set(value) {
+        this.$store.commit('updatePassword', value)
+      },
+      get() {
+        return this.$store.state.contrasena
+      },
+    },
+    correo: {
+      
+      set(value) {
+        this.$store.commit('updateEmail', value)
+      },
+      get() {
+        return this.$store.state.correo
+      },
+    },
+   
+  },
+  methods: {
+    ...mapActions(["login"]),
+  }
+    }
+</script>
 <style lang="scss">
 .button-box{
   width: 220px;
