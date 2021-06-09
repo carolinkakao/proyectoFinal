@@ -11,6 +11,12 @@
 
         <b-collapse id="nav-collapse" is-nav class="justify-content-end">
           <b-navbar-nav>
+             <!-- Link inscripciones -->
+            <b-nav-item>
+              <router-link to="/inscripciones" class="me-3">
+                Inscripciones
+              </router-link>
+            </b-nav-item>
             <!-- Link acerca -->
             <b-nav-item>
               <router-link to="/acerca" class="me-3">
