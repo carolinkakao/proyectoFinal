@@ -9,8 +9,8 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    correo: "",
-    contrasena: "",
+    user: "", 
+    pass: "",
     productos: [],
     titulos: [
       {
@@ -48,14 +48,11 @@ export default new Vuex.Store({
     },
   },
   mutations: {
-    log_in() {
-      router.push("home");
+    cargaUser(state, user) {
+      state.user = user;
     },
-    updateEmail (state, correo) {
-      state.correo = correo
-    },
-    updatePassword (state, contrasena) {
-      state.contrasena = contrasena
+    cargaPass(state, pass) {
+      state.pass = pass;
     },
     //////////LEER////////
     guardarProductos(state,payload){
@@ -91,15 +88,15 @@ export default new Vuex.Store({
     },
   },
   actions: {
-    login({ state, commit }) {
-      firebase
-        .auth().signInWithEmailAndPassword(state.correo, state.contrasena).then((userCredential) => {
-        console.log(userCredential);
-          commit('log_in')
-        })
-        .catch((error) => {
-          alert(error.message);
-        });
+    login({ state }){
+      firebase.auth().signInWithEmailAndPassword(state.user, state.pass)
+      .then(() =>{
+        router.push("inscripciones")
+        alert("Bienvenido(a)")
+      })
+      .catch(()=>{
+        alert("Ingrese correo y contraseña correcta.")
+      })
     },
       //LEER DATA
     async getProductos({commit}){

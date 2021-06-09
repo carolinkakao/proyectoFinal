@@ -17,12 +17,6 @@
                 Acerca
               </router-link>
             </b-nav-item>
-            <!-- Link inscripciones -->
-            <b-nav-item>
-              <router-link to="/inscripciones" class="me-3">
-                Inscripciones
-              </router-link>
-            </b-nav-item>
             <!-- Link anuncios -->
             <b-nav-item>
               <router-link to="/anuncios" class="me-3">

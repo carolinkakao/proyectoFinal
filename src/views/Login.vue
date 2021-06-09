@@ -17,14 +17,14 @@
       <b-input-group-prepend is-text>
         <b-icon icon="person-fill"></b-icon>
       </b-input-group-prepend>
-      <b-form-input v-model="correo" type="text" placeholder="Usuario"></b-form-input>
+      <b-form-input v-model="user" type="text" placeholder="Usuario"></b-form-input>
     </b-input-group>
      <!--input-contraseña-->
       <b-input-group class="mb-2">
       <b-input-group-prepend is-text>
         <b-icon icon="lock-fill"></b-icon>
       </b-input-group-prepend>
-      <b-form-input v-model="contrasena" type="text" placeholder="Contraseña"></b-form-input>
+      <b-form-input v-model="pass" type="text" placeholder="Contraseña"></b-form-input>
     </b-input-group>
         <div>
     <b-form-checkbox
@@ -53,25 +53,23 @@
 import { mapActions } from "vuex"
 export default {
   name: "Login",
-    computed: {
-       contrasena: {
-      set(value) {
-        this.$store.commit('updatePassword', value)
-      },
+  computed: {
+    user: {
       get() {
-        return this.$store.state.contrasena
+        return this.$store.state.user;
+      },
+      set(value) {
+        this.$store.commit("cargaUser", value);
       },
     },
-    correo: {
-      
-      set(value) {
-        this.$store.commit('updateEmail', value)
-      },
+    pass: {
       get() {
-        return this.$store.state.correo
+        return this.$store.state.pass
+      },
+      set(value) {
+        this.$store.commit("cargaPass", value);
       },
     },
-   
   },
   methods: {
     ...mapActions(["login"]),
