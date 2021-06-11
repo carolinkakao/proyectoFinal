@@ -2,8 +2,7 @@ import Vue from "vue";
 import Vuex from "vuex";
 import router from '@/router'
 import firebase from "firebase"
-
-
+import axios from "axios";
 
 Vue.use(Vuex);
 
@@ -46,6 +45,7 @@ export default new Vuex.Store({
       id: "",
       stock: "",
     },
+    pokemones: [], //Variable de API
   },
   mutations: {
     cargaUser(state, user) {
@@ -85,6 +85,10 @@ export default new Vuex.Store({
     editarJuguete(state, payload) {
       const juguete = payload;
       state.jugueteEditar = juguete;
+    },
+    //API
+    llenarConDataAPI(state, payload) {
+      state.pokemones = payload;
     },
   },
   actions: {
@@ -165,8 +169,18 @@ export default new Vuex.Store({
       // Vuex
       commit();
     },
-    
-
+    //API
+    async obtenerDataAPI({ commit }) {
+      const url = "https://pokeapi.co/api/v2/pokemon?offset=0&limit=300";
+      try {
+        const req = await axios(url);
+        const arr = req.data.results;
+        // console.log(arr)
+        commit("llenarConDataAPI", arr);
+      } catch (error) {
+        console.log(error);
+      }
+    },
   },
   modules: {},
 });
