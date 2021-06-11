@@ -1,5 +1,5 @@
 <template>
-  <header class="text-white text-center container-fluid py-5 my-5">
+  <header class="text-white text-center container-fluid py-5 mt-5">
     <b-row class="py-5">
       <!-- Avatars -->
       <b-col sm="0" md="0"	lg="2" xl="2"></b-col>
