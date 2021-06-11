@@ -15,23 +15,33 @@ export default new Vuex.Store({
     titulos: [
       {
         label: "Nombre",
-        key: "nombre", //nombre titulo de cada campo
+        key: "nombre", 
+      },
+     
+      {
+        label: "Formato",
+        key: "formato",
       },
       {
-        label: "Código",
-        key: "codigo",
+        label: "Id Jugador",
+        key: "idJugador",
+      },
+     
+      {
+        label: "Modalidad",
+        key: "modalidad",
       },
       {
-        label: "Producto",
-        key: "producto",
+        label: "Horario",
+        key: "selected",
       },
       {
-        label: "Stock",
-        key: "stock",
+        label: "Estado",
+        key: "estado",
       },
       {
-        label: "Precio",
-        key: "precio",
+        label: "Fase",
+        key: "fase",
       },
       {
         key: "actions", 
@@ -40,11 +50,10 @@ export default new Vuex.Store({
     ],
     editar: false,
     jugueteEditar: {
+      formato: "",
       nombre: "",
-      precio: "",
-      codigo: "",
-      id: "",
-      stock: "",
+      modalidad: "",
+      idJugador: "",
     },
   },
   mutations: {
@@ -73,7 +82,7 @@ export default new Vuex.Store({
     agregarNuevoProducto(state,payload){//con este payload quiero agregar un nuevo producto ala rreglo vacio producto al obketo
        // Qué pasaría si el ID existe?
       // Validar que el ID no exista:
-      const existe = state.productos.find((productillo) => productillo.codigo === payload.codigo);//find es mas especifico basta con que no exista 1 vez para no hacer el push
+      const existe = state.productos.find((productillo) => productillo.idJugador === payload.idJugador);//find es mas especifico basta con que no exista 1 vez para no hacer el push
       // Si no existe ingresar a la base de datos.
       if (!existe) state.productos.push(payload);//si existe se hace el push sino existe no se hace nada
       
@@ -102,7 +111,7 @@ export default new Vuex.Store({
     async getProductos({commit}){
       const db = firebase.firestore();
       try {
-        const req = await db.collection("cartas").get(); //nombre colección de firestore que estamos llamando
+        const req = await db.collection("inscripciones").get(); //nombre colección de firestore que estamos llamando
         if (req) {
           req.docs.forEach((producto) => { //dentro de reque.docs esta la data a iterar
             const obj = producto.data();//producto.data es un objeto obtenido de la data directa de firebase
@@ -124,7 +133,7 @@ export default new Vuex.Store({
 //eliminar data desde firebase, se mantiene en vuex y en pantalla
     //  try {
     //  const db = firebase.firestore();
-    //  const req = await db.collection("cartas").doc(idFirebase).delete();
+    //  const req = await db.collection("inscripciones").doc(idFirebase).delete();
     //console.log(req);
     //  } catch (error) {
      //   console.log(error);
@@ -140,7 +149,7 @@ export default new Vuex.Store({
       commit("agregarNuevoProducto",nuevo)
       //actualizar firebase
       //preguntar si existe el id en firebase
-      await firebase.firestore().collection("cartas").add(nuevo);//este producto viene del componentr
+      await firebase.firestore().collection("inscripciones").add(nuevo);//este producto viene del componentr
      
     },
     //editar
@@ -152,11 +161,13 @@ export default new Vuex.Store({
       
       // Firebase
       try {
-        const req = await firebase.firestore().collection("cartas").doc(idFirebase).update({
+        const req = await firebase.firestore().collection("inscripciones").doc(idFirebase).update({
             codigo: juguete.codigo,
-            stock: juguete.stock,
+            mazo: juguete.mazo,
             nombre: juguete.nombre,
-            precio: juguete.precio
+            modalidad: juguete.modalidad,
+            torneo: juguete.torneo,
+
           });
         console.log(req);
       } catch (error) {

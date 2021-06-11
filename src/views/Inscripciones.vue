@@ -1,12 +1,19 @@
 <template>
-  <div class="home">
-    <div class="mt-5 container">
-    <button @click="logout">Cerrar Sesión</button>
+  <div>
+    <div class="mt-5 mb-5">
+     <button @click="logout">Cerrar Sesión</button>
+    </div>
+    <b-container>
+      <b-row>
+        <b-col>
+          <h2>Registrate para Participar en el Torneo</h2>
+     <Nuevoproducto/>
     <Tabla :filas="productos" :encabezados="titulos" />
-    <Nuevoproducto/>
-    <Imagen/>
     <Editar/>
-  </div>
+        </b-col>
+    </b-row>
+    </b-container>
+
   </div>
 </template>
 
@@ -15,7 +22,6 @@
 
 import Tabla from "@/components/Tabla.vue";
 import Nuevoproducto from "@/components/Nuevoproducto.vue";
-import Imagen from "@/components/Imagen.vue";
 import Editar from "@/components/Editar.vue";
 import firebase from "firebase"
 
@@ -27,7 +33,6 @@ export default {
    
       Tabla,
       Nuevoproducto,
-      Imagen,
       Editar,
   },
   computed: {
@@ -44,3 +49,9 @@ export default {
   },
 };
 </script>
+<style lang="scss">
+.home{
+  position: relative;
+  top:5rem;
+}
+</style>

@@ -3,10 +3,12 @@
     <h2 class="text-center">Editar Datos</h2>
     <label>Nombre</label>
     <b-form-input v-model="jugueteEditar.nombre"></b-form-input>
-    <label>Stock</label>
-    <b-form-input v-model="jugueteEditar.stock" ></b-form-input>
-    <label>Precio</label>
-    <b-form-input v-model="jugueteEditar.precio"></b-form-input>
+    <label>Codigo</label>
+    <b-form-input v-model="jugueteEditar.idJugador" ></b-form-input>
+    <label>Mazo</label>
+    <b-form-input v-model="jugueteEditar.formato"></b-form-input>
+     <label>Modalidad</label>
+    <b-form-input v-model="jugueteEditar.modalidad"></b-form-input>
     <b-button
       size="sm"
       @click="actualizar(jugueteEditar)"
@@ -24,8 +26,9 @@ export default {
   data() {
     return {
       nombre: "",
-      stock: 0,
-      precio: 0,
+      idJugador: "",
+      formato: "",
+      modalidad:"",
     };
   },
   computed: {

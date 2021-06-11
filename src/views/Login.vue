@@ -5,7 +5,7 @@
       <b-col class="m-auto border p-4" cols="12" md="4">
       <div class="button-box">
         <div id="btn"></div>
-      <b-button class="  boton-inicio" >Inicio Sesión</b-button>
+    <div class="boton-inicio">Inicio Sesión</div>
       </div> 
       <div class="iconos-redes">
          <img alt="Vue logo" src="../assets/733547.png" />
