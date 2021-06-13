@@ -24,7 +24,7 @@
           <div class="col-lg-4">
               <h4 class="titulo text-uppercase mb-4">Contáctanos</h4>
               <p class="contenido mb-0">
-                nombreproyecto@gmail.com
+                duelstore@duelstore.com
                 <br />
                 +569 1234 5678
               </p>

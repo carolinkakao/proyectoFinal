@@ -1,14 +1,10 @@
 <template>
   <div id="app">
-    <Navbar /> <!--agregar info de plan paso a paso-->
-    <Header />
-    <!-- Header -->
-    <!-- Bienvenidos -->
-    <!-- Para acceder a nuestros servicios... -->
-    <!-- Modalidad de juego -->
-    <!-- Auspiciadores -->
-    <!-- Juego -->
-    <Juego />
+    <Navbar /> 
+    <Header /> <!-- Bienvenidos, Modalidad de juego -->
+    <Instrucciones /> <!-- Para acceder a nuestros servicios... -->
+    <Auspiciadores /> <!-- Iconos -->
+    <Juego /> 
     <Footer />
   </div>
 </template>
@@ -16,6 +12,8 @@
 <script>
 import Navbar from "@/components/Navbar.vue";
 import Header from "@/components/Header.vue";
+import Instrucciones from "@/components/Instrucciones.vue";
+import Auspiciadores from "@/components/Auspiciadores.vue";
 import Juego from "@/components/Juego.vue";
 import Footer from "@/components/Footer.vue";
 
@@ -24,6 +22,8 @@ export default {
   components: {
     Navbar,
     Header,
+    Instrucciones,
+    Auspiciadores,
     Juego,
     Footer,
   },
