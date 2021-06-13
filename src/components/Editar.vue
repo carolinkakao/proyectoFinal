@@ -2,14 +2,16 @@
   <div v-if="editar" class="mb-5 pb-5 text-start">
     <h2 class="text-center">Editar Datos</h2>
     <label>Nombre</label>
-    <b-form-input v-model="jugueteEditar.nombre"></b-form-input>
-    <label>Stock</label>
-    <b-form-input v-model="jugueteEditar.stock" ></b-form-input>
-    <label>Precio</label>
-    <b-form-input v-model="jugueteEditar.precio"></b-form-input>
+    <b-form-input v-model="productoEditar.nombre"></b-form-input>
+    <label>Codigo</label>
+    <b-form-input v-model="productoEditar.idJugador" ></b-form-input>
+    <label>Mazo</label>
+    <b-form-input v-model="productoEditar.formato"></b-form-input>
+     <label>Modalidad</label>
+    <b-form-input v-model="productoEditar.modalidad"></b-form-input>
     <b-button
       size="sm"
-      @click="actualizar(jugueteEditar)"
+      @click="actualizar(productoEditar)"
       class="my-1"
       variant="success"
       >Actualizar Información</b-button
@@ -24,17 +26,18 @@ export default {
   data() {
     return {
       nombre: "",
-      stock: 0,
-      precio: 0,
+      idJugador: "",
+      formato: "",
+      modalidad:"",
     };
   },
   computed: {
-    ...mapState(["editar", "jugueteEditar"]),
+    ...mapState(["editar", "productoEditar"]),
   },
   methods: {
     ...mapActions(["updateProducto"]),
-    actualizar(juguete) {
-      this.updateProducto(juguete);
+    actualizar(producto) {
+      this.updateProducto(producto);
     },
   },
 };

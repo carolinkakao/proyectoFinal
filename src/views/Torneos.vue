@@ -1,3 +1,16 @@
 <template>
-    <h1>soy torneos</h1>
+  <Sorteo/>
 </template>
+
+<script>
+
+import Sorteo from "@/components/Sorteo.vue";
+export default {
+    
+ 
+  components:{
+    Sorteo,
+  }
+  
+}
+</script>

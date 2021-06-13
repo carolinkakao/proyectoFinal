@@ -34,6 +34,12 @@
               <router-link to="/torneos">
                 Torneos
               </router-link>
+              </b-nav-item>
+              <!-- Link administrador -->
+            <b-nav-item>
+              <router-link to="/admi">
+                Administrador
+              </router-link>
             </b-nav-item>
              <!-- Link login -->
             <b-nav-item>

@@ -1,3 +1,4 @@
+<!-- Quedan pendiente las validaciones controladoras en los puntos claves del flujo del usuario-->
 <template>
     <b-table
     v-if="filas&&encabezados" 
@@ -16,9 +17,11 @@
     //scope row(fila), slot
       <template #cell(actions)="row"> 
         <b-button size="sm" class="my-1  " variant="danger" @click="borrar(row.item)">
+           <b-icon icon="x-square-fill"></b-icon>
           Eliminar
         </b-button>
         <b-button size="sm" class="my-1 m-3" variant="success" @click="editar(row.item)" >
+          <b-icon icon="tools"></b-icon>
           Editar
         </b-button>
       </template>
@@ -50,17 +53,14 @@ import {  mapActions, mapMutations } from "vuex";
       borrar(productoBorrado){
         this.deleteProducto(productoBorrado)
       },
-     editar(juguete) {
+     editar(producto) {
       this.booleanEditar();
-      this.editarJuguete(juguete);
+      this.editarProducto(producto);
     },
       ...mapActions(["deleteProducto"]),
-       ...mapMutations(["booleanEditar", "editarJuguete"]),
+       ...mapMutations(["booleanEditar", "editarProducto"]),
     },
  
    
   }
 </script>
-<style lang="scss" scoped>
-
-</style>
