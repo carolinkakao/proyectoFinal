@@ -1,3 +1,4 @@
+<!-- Quedan pendiente las validaciones controladoras en los puntos claves del flujo del usuario-->
 <template>
 <div>
     <div class="container">
@@ -13,7 +14,7 @@
     </b-input-group>
                        <!--Formato de Juego -->
                        <div class="mt-3">
-     <b-form-select v-model="prod.formato" class="opcion-select mb-3 w-50" >
+     <b-form-select  v-model="prod.formato" class="opcion-select mb-3 w-50 " >
       <b-form-select-option :value="null">Selecciona un Formato de Juego</b-form-select-option>
       <b-form-select-option value="standar">Standar</b-form-select-option>
       <b-form-select-option value="expanded">Expanded</b-form-select-option>
@@ -66,10 +67,32 @@
       </b-form-select>
       <div style="display:none" class="opciones mt-2">Fase del jugador: <strong>{{ prod.fase }}</strong></div>
                      </div>
-    
+                     <!--calendario-->
+                   
+  <div>
+    <b-calendar v-model="prod.state"
+      id="ex-disabled-readonly"
+      :disabled="disabled"
+      :readonly="readonly"
+    ></b-calendar>
+  </div>
+
+                        <!--boton-->
       <div >
-    <b-button @click="crearProducto()" class="mt-5 " variant="primary">Inscribete al Nuevo Torneo</b-button>
+    <b-button  @click="crearProducto();showModal()" class="mt-5" size="lg" pill variant="info" >Inscribete</b-button>
+                         <!--Modal-->
+    <b-modal  ref="my-modal" hide-footer title="Comprobante de Inscripción">
+      <div class="d-block text-center">
+        <h3>Felicidades {{prod.nombre}} </h3>
+        <h4>Te inscribiste para el día {{prod.state}} </h4>
+        <h4>a las {{prod.selected}}</h4>
+        <h4>Características de tu juego: {{prod.modalidad}}, {{prod.formato}}</h4>
+        <img alt="Vue logo" src="../assets/estrella.png" />
       </div>
+      <b-button size="lg" class="boton-modal mt-3" aling-center variant="danger" block @click="hideModal">Aceptar</b-button>
+    </b-modal>
+      </div>
+      
   </b-form>
 </div>
     </div>
@@ -90,7 +113,8 @@ import {  mapActions } from "vuex";
           formato:null,
           selected: null,
           estado:null,
-          fase:null
+          fase:null,
+          state: ''
            
         },
        
@@ -102,10 +126,24 @@ import {  mapActions } from "vuex";
     crearProducto(){
      // const producto = this.producto;
      // if (!producto.id || !producto.nombre || !producto.stock || !producto.precio) return;
-      this.crearNuevoProducto(this.prod);
-       
-    }
+      this.crearNuevoProducto(this.prod);  
     },
+    showModal() {
+        this.$refs['my-modal'].show()
+      },
+      hideModal() {
+        this.$refs['my-modal'].hide()
+      },
+   
+    },
+    computed: {
+      disabled() {
+        return this.state === 'disabled'
+      },
+      readonly() {
+        return this.state === 'readonly'
+      }
+    }
  
    
   }
@@ -119,5 +157,12 @@ import {  mapActions } from "vuex";
 .opcion-select{
   position:relative;
 right: 19.5rem;
+}
+.boton-modal{
+  position: relative;
+  left: 12rem;
+}
+img{
+  width: 8rem;
 }
 </style>

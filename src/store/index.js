@@ -34,6 +34,7 @@ export default new Vuex.Store({
         label: "Horario",
         key: "selected",
       },
+      /*
       {
         label: "Estado",
         key: "estado",
@@ -41,6 +42,10 @@ export default new Vuex.Store({
       {
         label: "Fase",
         key: "fase",
+      },*/
+      {
+        label: "Fecha",
+        key: "state",
       },
       {
         key: "actions", 
@@ -48,7 +53,7 @@ export default new Vuex.Store({
       },
     ],
     editar: false,
-    jugueteEditar: {
+    productoEditar: {
       formato: "",
       nombre: "",
       modalidad: "",
@@ -78,7 +83,7 @@ export default new Vuex.Store({
       console.log(index2);//devuelve el indice real del objeto dentro del arreglo
       state.productos.splice(index, 1); //REMUEVE O INSERTA NUEVOS ELEMENTOS se pasa de donde inicia ell indice id y le pasas de cuanto quieres eliminar en este caspo 1
     },
-    //agregar//
+    //Agregar//
     agregarNuevoProducto(state,payload){//con este payload quiero agregar un nuevo producto ala rreglo vacio producto al obketo
        // Qué pasaría si el ID existe?
       // Validar que el ID no exista:
@@ -87,13 +92,13 @@ export default new Vuex.Store({
       if (!existe) state.productos.push(payload);//si existe se hace el push sino existe no se hace nada
       
     },
-    ///editar///
+    ///Editar///
     booleanEditar(state) {
       state.editar = true;
     },
-    editarJuguete(state, payload) {
-      const juguete = payload;
-      state.jugueteEditar = juguete;
+    editarProducto(state, payload) {
+      const producto = payload;
+      state.productoEditar = producto;
     },
     //API
     llenarConDataAPI(state, payload) {
@@ -157,20 +162,20 @@ export default new Vuex.Store({
      
     },
     //editar
-     //actualizar tabla juguetes
+     //actualizar tabla productos
      async updateProducto({ commit }, payload) {
-      const juguete = payload;
-      if (!juguete) return;
-      const idFirebase = juguete.id;
+      const producto = payload;
+      if (!producto) return;
+      const idFirebase = producto.id;
       
       // Firebase
       try {
         const req = await firebase.firestore().collection("inscripciones").doc(idFirebase).update({
-            codigo: juguete.codigo,
-            mazo: juguete.mazo,
-            nombre: juguete.nombre,
-            modalidad: juguete.modalidad,
-            torneo: juguete.torneo,
+            codigo: producto.codigo,
+            mazo: producto.mazo,
+            nombre: producto.nombre,
+            modalidad: producto.modalidad,
+            torneo: producto.torneo,
 
           });
         console.log(req);
