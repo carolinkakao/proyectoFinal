@@ -4,12 +4,12 @@
       <b-container>
         <!-- Link Home -->
         <router-link to="/">
-          Logo
+          <i class="fas fa-dragon fa-2x"></i>
         </router-link>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-        <b-collapse id="nav-collapse" is-nav class="justify-content-end">
+        <b-collapse id="nav-collapse" is-nav class="justify-content-center">
           <b-navbar-nav>
              <!-- Link inscripciones -->
             <b-nav-item>
@@ -43,6 +43,11 @@
             </b-nav-item>
           </b-navbar-nav>
         </b-collapse>
+
+        <!-- Plan Paso a paso -->
+        <div class="seccion-plan">
+          Plan Paso a paso
+        </div>
       </b-container>
     </b-navbar>
   </div>
@@ -60,10 +65,16 @@ div {
   font-weight: 700;
 }
 a {
-  color: white;
+  color: #009BDF;
   text-decoration: none;
 }
 a:hover {
-  color: #009BDF;
+  color: white;
+  font-size: large;
+}
+@media (max-width: 991.98px) { 
+  .seccion-plan {
+    display: none;
+  }
 }
 </style>

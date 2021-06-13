@@ -5,7 +5,7 @@
       <b-col cols="3">
         <!-- Card 1 -->
         <b-card
-          title="API"
+          title="Card Title"
           style="max-width: 20rem; height: 100%"
           class="my-auto"
         >
