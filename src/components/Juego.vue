@@ -6,7 +6,12 @@
       <b-col cols="6">
         <!-- Formulario -->
         <b-form-select v-model="pokemon" class="mb-3">
-          <b-form-select-option :value="val.name" v-for="(val, i) in pokemones" :key="i">{{ val.name }}</b-form-select-option>
+          <b-form-select-option
+            :value="val.name"
+            v-for="(val, i) in pokemones"
+            :key="i"
+            >{{ val.name }}</b-form-select-option
+          >
         </b-form-select>
         <button @click="obtenerPokemon()">Buscar</button>
         <!-- Tabla -->
@@ -21,41 +26,43 @@
           <tbody>
             <tr>
               <th scope="row">Front</th>
-              <td><img :src="imagenPokemon" alt="Imagen Pokemon"></td>
-              <td><img :src="imagenPokemonShiny" alt="Imagen Pokemon"></td>
+              <td><img :src="imagenPokemon" alt="Imagen Pokemon" /></td>
+              <td><img :src="imagenPokemonShiny" alt="Imagen Pokemon" /></td>
             </tr>
             <tr>
               <th scope="row">Back</th>
-              <td><img :src="imagenTraseraPokemon" alt="Imagen Pokemon"></td>
-              <td><img :src="imagenTraseraPokemonShiny" alt="Imagen Pokemon"></td>
+              <td><img :src="imagenTraseraPokemon" alt="Imagen Pokemon" /></td>
+              <td>
+                <img :src="imagenTraseraPokemonShiny" alt="Imagen Pokemon" />
+              </td>
             </tr>
             <tr>
               <th scope="row">Puntos de Vida</th>
-              <td colspan="2">{{vidaPokemon}}</td>
+              <td colspan="2">{{ vidaPokemon }}</td>
             </tr>
             <tr>
               <th scope="row">Experiencia</th>
-              <td colspan="2">{{experienciaPokemon}}</td>
+              <td colspan="2">{{ experienciaPokemon }}</td>
             </tr>
             <tr>
               <th scope="row">Ataque</th>
-              <td colspan="2">{{ataquePokemon}}</td>
+              <td colspan="2">{{ ataquePokemon }}</td>
             </tr>
             <tr>
               <th scope="row">Defensa</th>
-              <td colspan="2">{{defensaPokemon}}</td>
+              <td colspan="2">{{ defensaPokemon }}</td>
             </tr>
             <tr>
               <th scope="row">Ataque Especial</th>
-              <td colspan="2">{{ataqueEspecialPokemon}}</td>
+              <td colspan="2">{{ ataqueEspecialPokemon }}</td>
             </tr>
             <tr>
               <th scope="row">Defensa Especial</th>
-              <td colspan="2">{{defensaEspecialPokemon}}</td>
+              <td colspan="2">{{ defensaEspecialPokemon }}</td>
             </tr>
             <tr>
               <th scope="row">Velocidad</th>
-              <td colspan="2">{{velocidadPokemon}}</td>
+              <td colspan="2">{{ velocidadPokemon }}</td>
             </tr>
           </tbody>
         </table>
@@ -63,7 +70,7 @@
       <!-- Segunda columna -->
       <b-col cols="6">
         <!-- Gráfico -->
-        <Grafico v-if="velocidadPokemon" :velocidad="velocidadPokemon" />
+        <Grafico v-if="velocidadPokemon" :velocidad="velocidadPokemon" :key="data.id"/>
       </b-col>
     </b-row>
   </b-container>
@@ -77,48 +84,48 @@ import Grafico from "@/components/Grafico.vue";
 export default {
   name: "Juego",
   components: {
-    Grafico
+    Grafico,
   },
   data() {
     return {
       pokemon: "pikachu",
       data: "",
-    }
+    };
   },
   computed: {
     ...mapState(["pokemones"]),
     imagenPokemon() {
-      return this.data && this.data.sprites && this.data.sprites.front_default; 
+      return this.data && this.data.sprites && this.data.sprites.front_default;
     },
     imagenPokemonShiny() {
-      return this.data && this.data.sprites && this.data.sprites.front_shiny; 
+      return this.data && this.data.sprites && this.data.sprites.front_shiny;
     },
     imagenTraseraPokemon() {
-      return this.data && this.data.sprites && this.data.sprites.back_default; 
+      return this.data && this.data.sprites && this.data.sprites.back_default;
     },
     imagenTraseraPokemonShiny() {
-      return this.data && this.data.sprites && this.data.sprites.back_shiny; 
+      return this.data && this.data.sprites && this.data.sprites.back_shiny;
     },
     vidaPokemon() {
-      return this.data && this.data.stats[0] && this.data.stats[0].base_stat; 
+      return this.data && this.data.stats[0] && this.data.stats[0].base_stat;
     },
     experienciaPokemon() {
-      return this.data && this.data.base_experience; 
+      return this.data && this.data.base_experience;
     },
     ataquePokemon() {
-      return this.data && this.data.stats[1] && this.data.stats[1].base_stat; 
+      return this.data && this.data.stats[1] && this.data.stats[1].base_stat;
     },
     defensaPokemon() {
-      return this.data && this.data.stats[2] && this.data.stats[2].base_stat; 
+      return this.data && this.data.stats[2] && this.data.stats[2].base_stat;
     },
     ataqueEspecialPokemon() {
-      return this.data && this.data.stats[3] && this.data.stats[3].base_stat; 
+      return this.data && this.data.stats[3] && this.data.stats[3].base_stat;
     },
     defensaEspecialPokemon() {
-      return this.data && this.data.stats[4] && this.data.stats[4].base_stat; 
+      return this.data && this.data.stats[4] && this.data.stats[4].base_stat;
     },
     velocidadPokemon() {
-      return this.data && this.data.stats[5] && this.data.stats[5].base_stat; 
+      return this.data && this.data.stats[5] && this.data.stats[5].base_stat;
     },
   },
   methods: {
@@ -127,24 +134,24 @@ export default {
       const url = "https://pokeapi.co/api/v2/pokemon/";
       try {
         const req = await axios(url + this.pokemon);
-        if(!req) return;
+        if (!req) return;
         this.data = req.data;
-        // console.log(this.data);
+        console.log(this.data);
       } catch (error) {
         console.log(error);
       }
-    }
+    },
   },
   created() {
     this.obtenerDataAPI();
     this.obtenerPokemon();
   },
-}
+};
 </script>
 
 <style scoped>
 div {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #FFEA00;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffea00;
 }
 </style>

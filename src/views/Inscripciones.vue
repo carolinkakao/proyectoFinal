@@ -2,19 +2,20 @@
 <template>
   <div>
     <div class="mt-5 mb-5">
-       <b-button @click="logout" size="lg" pill variant="info">Cerrar Sesión</b-button>
+      <b-button @click="logout" size="lg" pill variant="info"
+        >Cerrar Sesión</b-button
+      >
     </div>
     <b-container>
       <b-row>
         <b-col>
           <h2>Registrate para Participar en el Torneo</h2>
-     <Nuevoproducto/>
-    <!--<Tabla :filas="productos" :encabezados="titulos" />
+          <Nuevoproducto />
+          <!--<Tabla :filas="productos" :encabezados="titulos" />
     <Editar/>-->
         </b-col>
-    </b-row>
+      </b-row>
     </b-container>
-
   </div>
 </template>
 
@@ -24,25 +25,25 @@
 /*import Tabla from "@/components/Tabla.vue";
 import Editar from "@/components/Editar.vue";*/
 import Nuevoproducto from "@/components/Nuevoproducto.vue";
-import firebase from "firebase"
+import firebase from "firebase";
 
 /*import { mapState } from "vuex";*/
 
 export default {
   name: "Inscripciones",
   components: {
-   
-      /*Tabla,
+    /*Tabla,
       Editar,*/
-      Nuevoproducto
-      
+    Nuevoproducto,
   },
   /*computed: {
     ...mapState(["productos", "titulos"])
   }*/
   methods: {
     logout() {
-      firebase.auth().signOut()
+      firebase
+        .auth()
+        .signOut()
         .then((accept) => {
           console.log(accept);
           this.$router.push("login");
@@ -52,8 +53,8 @@ export default {
 };
 </script>
 <style lang="scss">
-.home{
+.home {
   position: relative;
-  top:5rem;
+  top: 5rem;
 }
 </style>

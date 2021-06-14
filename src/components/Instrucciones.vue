@@ -4,21 +4,36 @@
     <b-row>
       <!-- Avatar 1 -->
       <b-col sm="4">
-        <b-avatar v-b-modal.modal-1 src="https://placekitten.com/300/300" size="10rem" class="my-4"></b-avatar>
+        <b-avatar
+          v-b-modal.modal-1
+          src="https://placekitten.com/300/300"
+          size="10rem"
+          class="my-4"
+        ></b-avatar>
         <b-modal id="modal-1" title="BootstrapVue">
           <p class="my-4">Hello from modal!</p>
         </b-modal>
       </b-col>
       <!-- Avatar 2 -->
       <b-col sm="4">
-        <b-avatar v-b-modal.modal-2 src="https://placekitten.com/300/300" size="10rem" class="my-4"></b-avatar>
+        <b-avatar
+          v-b-modal.modal-2
+          src="https://placekitten.com/300/300"
+          size="10rem"
+          class="my-4"
+        ></b-avatar>
         <b-modal id="modal-2" title="BootstrapVue">
           <p class="my-4">Hello from modal!</p>
         </b-modal>
       </b-col>
       <!-- Avatar 3 -->
       <b-col sm="4">
-        <b-avatar v-b-modal.modal-3 src="https://placekitten.com/300/300" size="10rem" class="my-4"></b-avatar>
+        <b-avatar
+          v-b-modal.modal-3
+          src="https://placekitten.com/300/300"
+          size="10rem"
+          class="my-4"
+        ></b-avatar>
         <b-modal id="modal-3" title="BootstrapVue">
           <p class="my-4">Hello from modal!</p>
         </b-modal>
@@ -35,7 +50,7 @@ export default {
 
 <style scoped>
 header {
-  background-color: #009BDF;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #009bdf;
+  font-family: "Montserrat", sans-serif;
 }
 </style>

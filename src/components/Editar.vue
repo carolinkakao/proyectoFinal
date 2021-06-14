@@ -4,10 +4,10 @@
     <label>Nombre</label>
     <b-form-input v-model="productoEditar.nombre"></b-form-input>
     <label>Codigo</label>
-    <b-form-input v-model="productoEditar.idJugador" ></b-form-input>
+    <b-form-input v-model="productoEditar.idJugador"></b-form-input>
     <label>Mazo</label>
     <b-form-input v-model="productoEditar.formato"></b-form-input>
-     <label>Modalidad</label>
+    <label>Modalidad</label>
     <b-form-input v-model="productoEditar.modalidad"></b-form-input>
     <b-button
       size="sm"
@@ -28,7 +28,7 @@ export default {
       nombre: "",
       idJugador: "",
       formato: "",
-      modalidad:"",
+      modalidad: "",
     };
   },
   computed: {

@@ -7,7 +7,7 @@ import Anuncios from "../views/Anuncios.vue";
 import Inscripciones from "../views/Inscripciones.vue";
 import Torneos from "../views/Torneos.vue";
 import Admi from "../views/Admi.vue";
-import Firebase from "firebase"
+import Firebase from "firebase";
 
 Vue.use(VueRouter);
 
@@ -42,8 +42,8 @@ const routes = [
     name: "Inscripciones",
     component: Inscripciones,
     meta: {
-      login: true
-    }
+      login: true,
+    },
   },
   {
     path: "/torneos",
@@ -52,8 +52,8 @@ const routes = [
   },
   {
     path: "*",
-    redirect: "/"
-  },  
+    redirect: "/",
+  },
 ];
 
 const router = new VueRouter({

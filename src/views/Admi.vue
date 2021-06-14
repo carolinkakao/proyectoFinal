@@ -1,8 +1,8 @@
 <template>
-<div>
+  <div>
     <h1>Organización Tabla de Jugadores</h1>
     <Tabla :filas="productos" :encabezados="titulos" />
-    <Editar/>
+    <Editar />
     <!--
 <button @click="iniciarCuartos()">Iniciar Torneo</button>
 <div>
@@ -15,13 +15,8 @@
        </b-container>
 </div>
 -->
-
-
-
-
-</div>
+  </div>
 </template>
-
 
 <script>
 import Tabla from "@/components/Tabla.vue";
@@ -42,14 +37,13 @@ export default {
     }
 
   },*/
-components:{
-     Tabla,
-     Editar,
-},
+  components: {
+    Tabla,
+    Editar,
+  },
 
-computed: {
+  computed: {
     ...mapState(["productos", "titulos"]),
-      
   },
   /*
   methods:{
@@ -78,12 +72,10 @@ computed: {
     } 
   }
  */
-  
-    
-}
+};
 </script>
 <style lang="scss" scoped>
-.tarjeta{
+.tarjeta {
   height: 10rem;
 }
 </style>
