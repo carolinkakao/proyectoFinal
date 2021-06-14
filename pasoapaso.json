@@ -1,0 +1,1727 @@
+[
+  {
+    "COMUNA": "Aisén",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Algarrobo",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Alhué",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Alto Biobío",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Alto del Carmen",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Alto Hospicio",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Ancud",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Andacollo",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Angol",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Antofagasta",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Antuco",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Arauco",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Arica",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Buin",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Bulnes",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Cabildo",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Cabo de Hornos",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Cabrero",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Calama",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Calbuco",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Caldera",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Calera",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Calera de Tango",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Calle Larga",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Camarones",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Camiña",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Canela",
+    "Paso": 2,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Cañete",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Carahue",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Cartagena",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Casablanca",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Castro",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Catemu",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Cauquenes",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Cerrillos",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Cerro Navia",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Chaitén",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Chanco",
+    "Paso": 3,
+    "ESTADO": "Preparación desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Chañaral",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Chépica",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Chiguayante",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Chile Chico",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Chillán",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Chillán Viejo",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Chimbarongo",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Cholchol",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Chonchi",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Cisnes",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Cobquecura",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Cochamó",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Cochrane",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Codegua",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Coelemu",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Coihueco",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Coinco",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Colbún",
+    "Paso": 1,
+    "ESTADO": "Cuarentena desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Colchane",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Colina",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Collipulli",
+    "Paso": 1,
+    "ESTADO": "Cuarentena desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Coltauco",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Combarbalá",
+    "Paso": 1,
+    "ESTADO": "Cuarentena desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Con Con",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Concepción",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Conchalí",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Constitución",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Contulmo",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Copiapó",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Coquimbo",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Coronel",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Corral",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Coyhaique",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Cunco",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Curacautín",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Curacaví",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Curaco de Vélez",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Curanilahue",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Curarrehue",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Curepto",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Curicó",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Dalcahue",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Diego de Almagro",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Doñihue",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "El Bosque",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "El Carmen",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "El Monte",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "El Quisco",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "El Tabo",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Empedrado",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Ercilla",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Estación Central",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Florida",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Freire",
+    "Paso": 1,
+    "ESTADO": "Cuarentena desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Freirina",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Fresia",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Frutillar",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Futaleufú",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Futrono",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Galvarino",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "General Lagos",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Gorbea",
+    "Paso": 1,
+    "ESTADO": "Cuarentena desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Graneros",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Guaitecas",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Hijuelas",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Hualaihué",
+    "Paso": 3,
+    "ESTADO": "Preparación desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Hualañé",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Hualpén",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Hualqui",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Huara",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Huasco",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Huechuraba",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Illapel",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Independencia",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Iquique",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Isla de Maipo",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Isla de Pascua",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Juan Fernández",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "La Cisterna",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "La Cruz",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "La Estrella",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "La Florida",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "La Granja",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "La Higuera",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "La Ligua",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "La Pintana",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "La Reina",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "La Serena",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "La Unión",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Lago Ranco",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Lago Verde",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Laguna Blanca",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Laja",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Lampa",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Lanco",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Las Cabras",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Las Condes",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Lautaro",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Lebu",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Licantén",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Limache",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Linares",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Litueche",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Llay - llay",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Llanquihue",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Lo Barnechea",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Lo Espejo",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Lo Prado",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Lolol",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Loncoche",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Longaví",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Lonquimay",
+    "Paso": 1,
+    "ESTADO": "Cuarentena desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Los Álamos",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Los Andes",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Los Ángeles",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Los Lagos",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Los Muermos",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Los Sauces",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Los Vilos",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Lota",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Lumaco",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Machalí",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Macul",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Máfil",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Maipú",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Malloa",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Marchihue",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Maria Elena",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Maria Pinto",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Mariquina",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Maule",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Maullín",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Mejillones",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Melipeuco",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Melipilla",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Molina",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Monte Patria",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Mostazal",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Mulchén",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Nacimiento",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Nancagua",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Natales",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Navidad",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Negrete",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Ninhue",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Nogales",
+    "Paso": 1,
+    "ESTADO": "Cuarentena desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Nueva Imperial",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Ñiquén",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Ñuñoa",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "O'Higgins",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Olivar",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Ollagüe",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Olmué",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Osorno",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Ovalle",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Padre Hurtado",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Padre Las Casas",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Paihuano",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Paillaco",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Paine",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Palena",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Palmilla",
+    "Paso": 3,
+    "ESTADO": "Preparación desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Panguipulli",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Panquehue",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Papudo",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Paredones",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Parral",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Pedro Aguirre Cerda",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Pelarco",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Pelluhue",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Pemuco",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Pencahue",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Penco",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Peñaflor",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Peñalolén",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Peralillo",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Perquenco",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Petorca",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Peumo",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Pica",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Pichidegua",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Pichilemu",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Pinto",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Pirque",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Pitrufquén",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Placilla",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Portezuelo",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Porvenir",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Pozo Almonte",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Primavera",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Providencia",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Puchuncaví",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Pucón",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Pudahuel",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Puente Alto",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Puerto Montt",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Puerto Octay",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Puerto Varas",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Pumanque",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Punitaqui",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Punta Arenas",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Puqueldón",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Purén",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Purranque",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Putaendo",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Putre",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Puyehue",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Queilén",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Quellón",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Quemchi",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Quilaco",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Quilicura",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Quilleco",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Quillón",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Quillota",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Quilpué",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Quinchao",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Quinta de Tilcoco",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Quinta Normal",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Quintero",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Quirihue",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Rancagua",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Ránquil",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Rauco",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Recoleta",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Renaico",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Renca",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Rengo",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Requínoa",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Retiro",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Rinconada",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Río Bueno",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Río Claro",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Río Hurtado",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Río Ibáñez",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Río Negro",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Río Verde",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Romeral",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Saavedra",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Sagrada Familia",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Salamanca",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "San Antonio",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "San Bernardo",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "San Carlos",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "San Clemente",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "San Esteban",
+    "Paso": 1,
+    "ESTADO": "Cuarentena desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "San Fabián",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "San Felipe",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "San Fernando",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "San Gregorio",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "San Ignacio",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "San Javier",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "San Joaquín",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "San José de Maipo",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "San Juan de la Costa",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "San Miguel",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "San Nicolás",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "San Pablo",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "San Pedro",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "San Pedro de Atacama",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "San Pedro de la Paz",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "San Rafael",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "San Ramón",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "San Rosendo",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "San Vicente",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Santa Bárbara",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Santa Cruz",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Santa Juana",
+    "Paso": 2,
+    "ESTADO": "Transición desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Santa Maria",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Santiago",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Santo Domingo",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Sierra Gorda",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Talagante",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Talca",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Talcahuano",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Taltal",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Temuco",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Teno",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Teodoro Schmidt",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Tierra Amarilla",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Tiltil",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Timaukel",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Tirúa",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Tocopilla",
+    "Paso": 3,
+    "ESTADO": "Preparación desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Toltén",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Tomé",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Torres del Paine",
+    "Paso": 4,
+    "ESTADO": "Apertura Inicial"
+  },
+  {
+    "COMUNA": "Tortel",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Traiguén",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Treguaco",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Tucapel",
+    "Paso": 3,
+    "ESTADO": "Preparación"
+  },
+  {
+    "COMUNA": "Valdivia",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Vallenar",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Valparaiso",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Vichuquén",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Victoria",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Vicuña",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Vilcún",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Villa Alegre",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Villa Alemana",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Villarrica",
+    "Paso": 1,
+    "ESTADO": "Cuarentena desde el jueves 17 de junio a las 5:00 hrs."
+  },
+  {
+    "COMUNA": "Viña del Mar",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Vitacura",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Yerbas Buenas",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Yumbel",
+    "Paso": 1,
+    "ESTADO": "Cuarentena"
+  },
+  {
+    "COMUNA": "Yungay",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  },
+  {
+    "COMUNA": "Zapallar",
+    "Paso": 2,
+    "ESTADO": "Transición"
+  }
+]
