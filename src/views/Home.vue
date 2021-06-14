@@ -9,6 +9,7 @@
     <!-- Iconos -->
     <Juego />
     <Footer />
+    <!-- <button @click="cargaMasiva">Carga Masiva</button> -->
   </div>
 </template>
 
@@ -19,6 +20,8 @@ import Instrucciones from "@/components/Instrucciones.vue";
 import Auspiciadores from "@/components/Auspiciadores.vue";
 import Juego from "@/components/Juego.vue";
 import Footer from "@/components/Footer.vue";
+// import firebase from "firebase";
+// import json from "../../pasoapaso.json"
 
 export default {
   name: "Home",
@@ -29,6 +32,18 @@ export default {
     Auspiciadores,
     Juego,
     Footer,
+  },
+  methods: {
+    // async cargaMasiva() {
+    //   json.forEach(async (comuna) => {
+    //     try {
+    //       // console.log(comuna)
+    //       await firebase.firestore().collection("pasoapaso").add(comuna);
+    //     } catch (error) {
+    //       console.log(error);
+    //     }
+    //   });
+    // },
   },
 };
 </script>
