@@ -169,7 +169,6 @@
 </template>
 
 <script>
-
 export default {
   name: "Cards",
 };

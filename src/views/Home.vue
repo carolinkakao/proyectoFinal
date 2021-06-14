@@ -1,10 +1,13 @@
 <template>
   <div id="app">
-    <Navbar /> 
-    <Header /> <!-- Bienvenidos, Modalidad de juego -->
-    <Instrucciones /> <!-- Para acceder a nuestros servicios... -->
-    <Auspiciadores /> <!-- Iconos -->
-    <Juego /> 
+    <Navbar />
+    <Header />
+    <!-- Bienvenidos, Modalidad de juego -->
+    <Instrucciones />
+    <!-- Para acceder a nuestros servicios... -->
+    <Auspiciadores />
+    <!-- Iconos -->
+    <Juego />
     <Footer />
   </div>
 </template>

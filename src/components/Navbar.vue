@@ -1,6 +1,11 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="dark" class="fixed-top text-uppercase p-4">
+    <b-navbar
+      toggleable="lg"
+      type="dark"
+      variant="dark"
+      class="fixed-top text-uppercase p-4"
+    >
       <b-container>
         <!-- Link Home -->
         <router-link to="/">
@@ -11,7 +16,7 @@
 
         <b-collapse id="nav-collapse" is-nav class="justify-content-center">
           <b-navbar-nav>
-             <!-- Link inscripciones -->
+            <!-- Link inscripciones -->
             <b-nav-item>
               <router-link to="/inscripciones" class="me-3">
                 Inscripciones
@@ -19,41 +24,29 @@
             </b-nav-item>
             <!-- Link acerca -->
             <b-nav-item>
-              <router-link to="/acerca" class="me-3">
-                Acerca
-              </router-link>
+              <router-link to="/acerca" class="me-3"> Acerca </router-link>
             </b-nav-item>
             <!-- Link anuncios -->
             <b-nav-item>
-              <router-link to="/anuncios" class="me-3">
-                Anuncios
-              </router-link>
+              <router-link to="/anuncios" class="me-3"> Anuncios </router-link>
             </b-nav-item>
             <!-- Link torneos -->
             <b-nav-item>
-              <router-link to="/torneos">
-                Torneos
-              </router-link>
-              </b-nav-item>
-              <!-- Link administrador -->
-            <b-nav-item>
-              <router-link to="/admi">
-                Administrador
-              </router-link>
+              <router-link to="/torneos"> Torneos </router-link>
             </b-nav-item>
-             <!-- Link login -->
+            <!-- Link administrador -->
             <b-nav-item>
-              <router-link to="/login">
-                Login
-              </router-link>
+              <router-link to="/admi"> Administrador </router-link>
+            </b-nav-item>
+            <!-- Link login -->
+            <b-nav-item>
+              <router-link to="/login"> Login </router-link>
             </b-nav-item>
           </b-navbar-nav>
         </b-collapse>
 
         <!-- Plan Paso a paso -->
-        <div class="seccion-plan">
-          Plan Paso a paso
-        </div>
+        <div class="seccion-plan">Plan Paso a paso</div>
       </b-container>
     </b-navbar>
   </div>
@@ -67,18 +60,18 @@ export default {
 
 <style scoped>
 div {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 a {
-  color: #009BDF;
+  color: #009bdf;
   text-decoration: none;
 }
 a:hover {
   color: white;
   font-size: large;
 }
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
   .seccion-plan {
     display: none;
   }
