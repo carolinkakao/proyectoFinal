@@ -33,7 +33,7 @@
 
 <script>
 export default {
-  name: "Auspiciadores",
+  name: "Mensajes",
 }
 </script>
 

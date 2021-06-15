@@ -44,7 +44,7 @@
 
 <script>
 export default {
-  name: "Avatars",
+  name: "Instrucciones",
 };
 </script>
 

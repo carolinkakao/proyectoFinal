@@ -114,7 +114,7 @@ export default {
         const req = await axios(url + this.pokemon);
         if (!req) return;
         this.data = req.data;
-        console.log(this.data);
+        // console.log(this.data);
       } catch (error) {
         console.log(error);
       }

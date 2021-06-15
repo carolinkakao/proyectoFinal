@@ -2,6 +2,7 @@
 import { Radar } from "vue-chartjs";
 
 export default {
+  name: "Grafico",
   props: ["vida","experiencia","ataque", "defensa", "ataqueEsp", "defensaEsp", "velocidad"],
   extends: Radar,
   mounted() {
