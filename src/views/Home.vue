@@ -1,12 +1,9 @@
 <template>
   <div id="app">
     <Navbar />
-    <Header />
-    <!-- Bienvenidos, Modalidad de juego -->
-    <Instrucciones />
-    <!-- Para acceder a nuestros servicios... -->
-    <Auspiciadores />
-    <!-- Iconos -->
+    <Header /> <!-- Bienvenidos, Modalidad de juego -->
+    <Instrucciones /> <!-- Para acceder a nuestros servicios... -->
+    <Mensajes />
     <Juego />
     <Footer />
     <!-- <button @click="cargaMasiva">Carga Masiva</button> -->
@@ -17,7 +14,7 @@
 import Navbar from "@/components/Navbar.vue";
 import Header from "@/components/Header.vue";
 import Instrucciones from "@/components/Instrucciones.vue";
-import Auspiciadores from "@/components/Auspiciadores.vue";
+import Mensajes from "@/components/Mensajes.vue";
 import Juego from "@/components/Juego.vue";
 import Footer from "@/components/Footer.vue";
 // import firebase from "firebase";
@@ -29,7 +26,7 @@ export default {
     Navbar,
     Header,
     Instrucciones,
-    Auspiciadores,
+    Mensajes,
     Juego,
     Footer,
   },
