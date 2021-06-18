@@ -6,36 +6,36 @@
       <b-col sm="4">
         <b-avatar
           v-b-modal.modal-1
-          src="https://placekitten.com/300/300"
+          src="../../img/usuario.png"
           size="10rem"
           class="my-4"
         ></b-avatar>
-        <b-modal id="modal-1" title="BootstrapVue">
-          <p class="my-4">Hello from modal!</p>
+        <b-modal id="modal-1" title="Inicia Sesión">
+          <p class="my-4">Inicia Sesión o Registrate en el sitio.</p>
         </b-modal>
       </b-col>
       <!-- Avatar 2 -->
       <b-col sm="4">
         <b-avatar
           v-b-modal.modal-2
-          src="https://placekitten.com/300/300"
+          src="../../img/entrenador.png"
           size="10rem"
           class="my-4"
         ></b-avatar>
-        <b-modal id="modal-2" title="BootstrapVue">
-          <p class="my-4">Hello from modal!</p>
+        <b-modal id="modal-2" title="Inscribete en el Torneo.">
+          <p class="my-4">Inscribete en el Torneo de Cartas Pokemon que este disponible. </p>
         </b-modal>
       </b-col>
       <!-- Avatar 3 -->
       <b-col sm="4">
         <b-avatar
           v-b-modal.modal-3
-          src="https://placekitten.com/300/300"
+          src="../../img/versus2.png"
           size="10rem"
           class="my-4"
         ></b-avatar>
-        <b-modal id="modal-3" title="BootstrapVue">
-          <p class="my-4">Hello from modal!</p>
+        <b-modal id="modal-3" title="Mira tu Versus">
+          <p class="my-4">Anda a la vista "Torneos" y verás con que persona te toca competir. </p>
         </b-modal>
       </b-col>
     </b-row>
