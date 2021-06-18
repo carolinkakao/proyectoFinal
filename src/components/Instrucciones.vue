@@ -11,9 +11,9 @@
           class="my-4"
         ></b-avatar>
         <b-modal id="modal-1" title="Inicia Sesión">
-          <p class="my-4">Inicia Sesión o Registrate en el sitio.</p>
+          <p class="my-4">Inicia Sesión o Registrate en el sitio</p>
         </b-modal>
-      </b-col>
+      </b-col>    
       <!-- Avatar 2 -->
       <b-col sm="4">
         <b-avatar
