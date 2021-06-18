@@ -28,7 +28,7 @@ Desarrollo de Aplicación para la organización de torneos relacionado al juego 
 
 ## Requisitos ✔️
 
-Antes de arrancar este proyecto debes tener instalado lo siguiente
+Antes de arrancar este proyecto debes tener instalado lo siguiente.
 
 **Node.js**
 
