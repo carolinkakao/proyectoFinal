@@ -6,7 +6,6 @@ import Acerca from "../views/Acerca.vue";
 import Anuncios from "../views/Anuncios.vue";
 import Inscripciones from "../views/Inscripciones.vue";
 import Torneos from "../views/Torneos.vue";
-import Admi from "../views/Admi.vue";
 import Firebase from "firebase";
 
 Vue.use(VueRouter);
@@ -16,11 +15,6 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
-  },
-  {
-    path: "/admi",
-    name: "Admi",
-    component: Admi,
   },
   {
     path: "/acerca",

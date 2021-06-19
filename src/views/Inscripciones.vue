@@ -11,8 +11,8 @@
         <b-col>
           <h2>Registrate para Participar en el Torneo</h2>
           <Nuevoproducto />
-          <!--<Tabla :filas="productos" :encabezados="titulos" />
-    <Editar/>-->
+          <Tabla :filas="productos" :encabezados="titulos" />
+          <Editar/>
         </b-col>
       </b-row>
     </b-container>
@@ -22,23 +22,23 @@
 <script>
 // @ is an alias to /src
 
-/*import Tabla from "@/components/Tabla.vue";
-import Editar from "@/components/Editar.vue";*/
+import Tabla from "@/components/Tabla.vue";
+import Editar from "@/components/Editar.vue";
 import Nuevoproducto from "@/components/Nuevoproducto.vue";
 import firebase from "firebase";
 
-/*import { mapState } from "vuex";*/
+import { mapState } from "vuex";
 
 export default {
   name: "Inscripciones",
   components: {
-    /*Tabla,
-      Editar,*/
+    Tabla,
+      Editar,
     Nuevoproducto,
   },
-  /*computed: {
+  computed: {
     ...mapState(["productos", "titulos"])
-  }*/
+  },
   methods: {
     logout() {
       firebase
