@@ -11,7 +11,10 @@
       <p>Donde la arena de combate será tu vida</p>
     </b-carousel-slide>
     <b-carousel-slide img-src="../../img/header-2.jpg">
-      <h2 class="d-flex justify-content-start" style="color: #ffea00">lorem</h2>
+      <h2 class="d-flex justify-content-end" style="color: #FFEA00">lorem</h2>
+    </b-carousel-slide>
+    <b-carousel-slide img-src="../../img/header-3.jpg">
+      <h2 class="d-flex justify-content-start" style="color: #ED0080">lorem</h2>
     </b-carousel-slide>
   </b-carousel>
 </template>

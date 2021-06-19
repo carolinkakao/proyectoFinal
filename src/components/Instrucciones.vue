@@ -1,9 +1,9 @@
 <template>
   <header class="text-center container-fluid px-5 py-4">
-    <h1 class="mb-2">Instrucciones</h1>
+    <h1 class="mb-2 text-white">Instrucciones</h1>
     <b-row>
       <!-- Avatar 1 -->
-      <b-col sm="4">
+      <b-col md="4">
         <b-avatar
           v-b-modal.modal-1
           src="../../img/usuario.png"
@@ -15,7 +15,7 @@
         </b-modal>
       </b-col>    
       <!-- Avatar 2 -->
-      <b-col sm="4">
+      <b-col md="4">
         <b-avatar
           v-b-modal.modal-2
           src="../../img/entrenador.png"
@@ -27,7 +27,7 @@
         </b-modal>
       </b-col>
       <!-- Avatar 3 -->
-      <b-col sm="4">
+      <b-col md="4">
         <b-avatar
           v-b-modal.modal-3
           src="../../img/versus2.png"
@@ -44,7 +44,7 @@
 
 <script>
 export default {
-  name: "Avatars",
+  name: "Instrucciones",
 };
 </script>
 
@@ -52,5 +52,12 @@ export default {
 header {
   background-color: #009bdf;
   font-family: "Montserrat", sans-serif;
+}
+span {
+  border: 4px solid #FFF;
+}
+span:hover {
+  opacity: 0.5;
+  border: 6px solid #FFF;
 }
 </style>
