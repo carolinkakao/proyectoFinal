@@ -53,10 +53,9 @@
         </div>
 
         <!-- Carga masiva de datos a Firebase -->
-        <div>
-          <!-- Botón para realizar carga masiva a Firebase (descomentar para utilizar) -->
-          <!-- <button @click="cargaMasiva">Carga Masiva</button> --> 
-        </div>
+        <!-- <div>
+          <button @click="cargaMasiva">Carga Masiva</button> 
+        </div> -->
 
       </b-container>
     </b-navbar>

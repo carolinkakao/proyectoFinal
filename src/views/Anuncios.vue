@@ -1,7 +1,6 @@
 <template>
   <div>
     <Navbar />
-    <h1>soy Anuncios</h1>
     <Cards />
     <Footer />
   </div>
