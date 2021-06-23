@@ -41,7 +41,7 @@ Antes de arrancar este proyecto debes tener instalado lo siguiente
 $ npm install -g firebase-tools
 ```
 
-#o
+o
 
 ```
 $ yarn add -g firebase firebase-tools
@@ -53,7 +53,7 @@ $ yarn add -g firebase firebase-tools
 git clone git@github.com:carolinkakao/proyectoFinal.git
 ```
 
-## Instalación​ :open_file_folder:
+## Instalaciones​ :open_file_folder:
 
 Una vez clonado el proyecto instalar las siguientess dependencias, ubicándose en la carpeta raíz
 
@@ -81,6 +81,7 @@ $ yarn add axios
 $ yarn add '@fortawesome/vue-fontawesome'
 ```
 
+```
 $ yarn add '@fortawesome/fontawesome-svg-core'
 ```
 
