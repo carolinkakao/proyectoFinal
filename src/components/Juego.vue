@@ -5,7 +5,7 @@
       <!-- Primera columna -->
       <b-col cols="6">
         <!-- Formulario -->
-        <b-form-select v-model="pokemon" class="mb-3">
+        <b-form-select v-model="pokemon" class="mb-3 text-capitalize">
           <b-form-select-option
             :value="val.name"
             v-for="(val, i) in pokemones"
@@ -18,51 +18,20 @@
         <table class="table table-dark">
           <thead>
             <tr>
-              <th scope="col"></th>
-              <th scope="col">imagen Pokemon</th>
-              <th scope="col">imagen Pokemon Shiny</th>
+              <th scope="col">Versión Original</th>
+              <th scope="col">Versión Shiny</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Front</th>
               <td><img :src="imagenPokemon" alt="Imagen Pokemon" /></td>
               <td><img :src="imagenPokemonShiny" alt="Imagen Pokemon" /></td>
             </tr>
             <tr>
-              <th scope="row">Back</th>
               <td><img :src="imagenTraseraPokemon" alt="Imagen Pokemon" /></td>
               <td>
                 <img :src="imagenTraseraPokemonShiny" alt="Imagen Pokemon" />
               </td>
-            </tr>
-            <tr>
-              <th scope="row">Puntos de Vida</th>
-              <td colspan="2">{{ vidaPokemon }}</td>
-            </tr>
-            <tr>
-              <th scope="row">Experiencia</th>
-              <td colspan="2">{{ experienciaPokemon }}</td>
-            </tr>
-            <tr>
-              <th scope="row">Ataque</th>
-              <td colspan="2">{{ ataquePokemon }}</td>
-            </tr>
-            <tr>
-              <th scope="row">Defensa</th>
-              <td colspan="2">{{ defensaPokemon }}</td>
-            </tr>
-            <tr>
-              <th scope="row">Ataque Especial</th>
-              <td colspan="2">{{ ataqueEspecialPokemon }}</td>
-            </tr>
-            <tr>
-              <th scope="row">Defensa Especial</th>
-              <td colspan="2">{{ defensaEspecialPokemon }}</td>
-            </tr>
-            <tr>
-              <th scope="row">Velocidad</th>
-              <td colspan="2">{{ velocidadPokemon }}</td>
             </tr>
           </tbody>
         </table>
@@ -70,7 +39,16 @@
       <!-- Segunda columna -->
       <b-col cols="6">
         <!-- Gráfico -->
-        <Grafico v-if="velocidadPokemon" :velocidad="velocidadPokemon" :key="data.id"/>
+        <Grafico 
+        v-if="velocidadPokemon" 
+        :vida="vidaPokemon"
+        :experiencia="experienciaPokemon"
+        :ataque="ataquePokemon"
+        :defensa="defensaPokemon"
+        :ataqueEsp="ataqueEspecialPokemon"
+        :defensaEsp="defensaEspecialPokemon"
+        :velocidad="velocidadPokemon" 
+        :key="data.id"/>
       </b-col>
     </b-row>
   </b-container>
@@ -136,7 +114,7 @@ export default {
         const req = await axios(url + this.pokemon);
         if (!req) return;
         this.data = req.data;
-        console.log(this.data);
+        //console.log(this.data);
       } catch (error) {
         console.log(error);
       }

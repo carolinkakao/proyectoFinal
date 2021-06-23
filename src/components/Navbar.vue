@@ -43,15 +43,53 @@
         </b-collapse>
 
         <!-- Plan Paso a paso -->
-        <div class="seccion-plan">Plan Paso a paso</div>
+        <div class="seccion-plan">
+          <!-- Formulario -->
+          <b-form-select>
+            <b-form-select-option :value="val.COMUNA" v-for="(val, i) in comunas" :key="i">
+              {{ val.COMUNA }} | {{val.Paso}}
+            </b-form-select-option>
+          </b-form-select>
+        </div>
+
+        <!-- Carga masiva de datos a Firebase -->
+        <div>
+          <!-- Botón para realizar carga masiva a Firebase (descomentar para utilizar) -->
+          <!-- <button @click="cargaMasiva">Carga Masiva</button> --> 
+        </div>
+
       </b-container>
     </b-navbar>
   </div>
 </template>
 
 <script>
+import { mapState, mapActions } from "vuex";
+import firebase from "firebase";
+import json from "../../pasoapaso.json"
+
 export default {
   name: "Navbar",
+  computed: {
+    ...mapState(["comunas"]),
+  },
+  methods: {
+    ...mapActions(["getComunas"]),
+    // Función para realizar carga masiva de datos a Firebase
+    async cargaMasiva() {
+      json.forEach(async (comuna) => {
+        try {
+          // console.log(comuna)
+          await firebase.firestore().collection("pasoapaso").add(comuna);
+        } catch (error) {
+          console.log(error);
+        }
+      });
+    },
+  },
+  created() {
+    this.getComunas();
+  },
 };
 </script>
 
