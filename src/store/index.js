@@ -156,14 +156,17 @@ export default new Vuex.Store({
       commit("borrarProducto", producto);
     },
     //crear producto
-    async crearNuevoProducto({ commit }, payload) {
+    async crearNuevoProducto({ commit }, payload){
+     // let ii = this.state.productos.length;
+     // let largoTablaFireBase = (await firebase.firestore().collection("inscripciones").get()).size
       const nuevo = payload;
       if (!nuevo) return;
+        commit("agregarNuevoProducto", nuevo);
+        await firebase.firestore().collection("inscripciones").add(nuevo); //este producto viene del componentr
       //actualizar el state
-      commit("agregarNuevoProducto", nuevo);
       //actualizar firebase
       //preguntar si existe el id en firebase
-      await firebase.firestore().collection("inscripciones").add(nuevo); //este producto viene del componentr
+
     },
     //editar
     //actualizar tabla productos
