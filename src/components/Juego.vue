@@ -129,7 +129,6 @@ export default {
 
 <style scoped>
 div {
-  font-family: "Montserrat", sans-serif;
   background-color: #ffea00;
 }
 </style>

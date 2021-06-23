@@ -50,7 +50,6 @@ export default {
 <style scoped>
 footer {
   background-color: #009bdf;
-  font-family: "Montserrat", sans-serif;
 }
 
 .titulo {

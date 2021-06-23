@@ -51,7 +51,6 @@ export default {
 <style scoped>
 header {
   background-color: #009bdf;
-  font-family: "Montserrat", sans-serif;
 }
 span {
   border: 4px solid #FFF;

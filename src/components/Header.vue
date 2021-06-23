@@ -30,8 +30,5 @@ export default {
   .carousel-caption {
     top: 50%;
   }
-  div {
-    font-family: "Montserrat", sans-serif;
-  }
 }
 </style>

@@ -39,7 +39,6 @@ export default {
 
 <style scoped>
 div {
-  font-family: 'Montserrat', sans-serif;
   background-color: #ED0080;
 }
 /* @media (max-width: 767.98px) { 

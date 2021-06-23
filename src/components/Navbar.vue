@@ -95,7 +95,6 @@ export default {
 
 <style scoped>
 div {
-  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 a {
