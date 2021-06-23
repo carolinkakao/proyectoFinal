@@ -1,5 +1,4 @@
-# proyecto-final
-
+# Duel Store
 Desarrollo de Aplicación para la organización de torneos relacionado al juego de cartas Pokemon.
 
 ## Tecnologías​ :hammer_and_wrench:
@@ -25,23 +24,19 @@ Desarrollo de Aplicación para la organización de torneos relacionado al juego 
 **Visual Studio Code** ( Editor recomendado ) ✔️
 
 > https://code.visualstudio.com/
-
 ## Requisitos ✔️
 
-Antes de arrancar este proyecto debes tener instalado lo siguiente.
+Antes de arrancar este proyecto debes tener instalado lo siguiente
 
 **Node.js**
 
 > [https://nodejs.org/](https://nodejs.org/)
-
 **Vue CLI**
 
 > [https://cli.vuejs.org/](https://cli.vuejs.org/)
-
 **Firebase**
 
 > https://firebase.google.com/
-
 ```
 $ npm install -g firebase-tools
 ```
@@ -65,27 +60,72 @@ Una vez clonado el proyecto instalar las siguientess dependencias, ubicándose e
 ```
 $ yarn install
 ```
-yarn install
+
+```
+$ yarn add axios
 ```
 
-### Compiles and hot-reloads for development
+```
+$ yarn add vue bootstrap bootstrap-vue
+```
+
+```
+$ yarn add firebase
+```
+
+```
+$ yarn add axios
+```
+
+```
+$ yarn add '@fortawesome/vue-fontawesome'
+```
+
+$ yarn add '@fortawesome/fontawesome-svg-core'
+```
+
+```
+$ yarn add '@fortawesome/free-solid-svg-icons'
+```
+
+```
+$ yarn add vue-chartjs chart.js@2.9.4
+```
+
+Terminado el proceso se podrá ejecutar el proyecto localmente con el siguiente comando
+
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+Para inicializar Firebase en su proyecto
+
 ```
-yarn build
+$ firebase init
 ```
 
-### Run your unit tests
+Con el siguiente comando se compila y minifica para producción
+
+```
+$ yarn build
+```
+
+Para correr tests unitarios
+
 ```
 yarn test:unit
 ```
 
-### Run your end-to-end tests
+Para correr tests E2E
+
 ```
 yarn test:e2e
+```
+
+Para implementar el alojamiento en Firebase y ver el proyecto en producción
+
+```
+$ firebase deploy --only hosting
 ```
 
 ### Lints and fixes files

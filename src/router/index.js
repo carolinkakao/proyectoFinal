@@ -36,7 +36,7 @@ const routes = [
     name: "Inscripciones",
     component: Inscripciones,
     meta: {
-      login: true,
+      autentificado: true,
     },
   },
   {
@@ -57,11 +57,11 @@ const router = new VueRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  let user = Firebase.auth().currentUser;
-  let authRequired = to.matched.some((route) => route.meta.login);
-  if (!user && authRequired) {
+  let usuario = Firebase.auth().currentUser;
+  let autorizacion = to.matched.some((route) => route.meta.autentificado);
+  if (!usuario && autorizacion) {
     next("login");
-  } else if (user && !authRequired) {
+  } else if (usuario && !autorizacion) {
     next("inscripciones");
   } else {
     next();

@@ -10,6 +10,7 @@ export default new Vuex.Store({
   state: {
     user: "",
     pass: "",
+    comunas: [], //Variable data colección paso a paso
     productos: [],
     titulos: [
       {
@@ -59,7 +60,7 @@ export default new Vuex.Store({
       modalidad: "",
       idJugador: "",
     },
-    pokemones: [], //Variable de API
+    pokemones: [], //Variable data de API
   },
   mutations: {
     cargaUser(state, user) {
@@ -67,6 +68,12 @@ export default new Vuex.Store({
     },
     cargaPass(state, pass) {
       state.pass = pass;
+    },
+    //Leer (colección Paso a paso)
+    guardarComunas(state, payload) {
+      const comuna = payload;
+      if (!comuna) return; //si comuna no existe retorna
+      state.comunas.push(comuna);
     },
     //////////LEER////////
     guardarProductos(state, payload) {
@@ -120,6 +127,24 @@ export default new Vuex.Store({
           alert("Ingrese correo y contraseña correcta.");
         });
     },
+    //Leer data (colección paso a paso)
+    async getComunas({ commit }) {
+      const db = firebase.firestore();
+      try {
+        const req = await db.collection("pasoapaso").get(); //nombre colección de firestore que estamos llamando
+        if (req) {
+          req.docs.forEach((comuna) => {
+            //dentro de reque.docs esta la data a iterar
+            const obj = comuna.data(); //comuna.data es un objeto obtenido de la data directa de firebase
+            const id = comuna.id;
+            obj.id = id;
+            commit("guardarComunas", obj); //con el commit voy a recorrer todos los elemntos del objeto comuna
+          });
+        }
+      } catch (error) {
+        console.log(error);
+      }
+    },
     //LEER DATA
     async getProductos({ commit }) {
       const db = firebase.firestore();
@@ -156,14 +181,17 @@ export default new Vuex.Store({
       commit("borrarProducto", producto);
     },
     //crear producto
-    async crearNuevoProducto({ commit }, payload) {
+    async crearNuevoProducto({ commit }, payload){
+     // let ii = this.state.productos.length;
+     // let largoTablaFireBase = (await firebase.firestore().collection("inscripciones").get()).size
       const nuevo = payload;
       if (!nuevo) return;
+        commit("agregarNuevoProducto", nuevo);
+        await firebase.firestore().collection("inscripciones").add(nuevo); //este producto viene del componentr
       //actualizar el state
-      commit("agregarNuevoProducto", nuevo);
       //actualizar firebase
       //preguntar si existe el id en firebase
-      await firebase.firestore().collection("inscripciones").add(nuevo); //este producto viene del componentr
+
     },
     //editar
     //actualizar tabla productos

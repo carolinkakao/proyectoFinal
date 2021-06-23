@@ -163,7 +163,6 @@
             <b-button
               @click="
                 crearProducto();
-                showModal();
               "
               class="mt-5"
               size="lg"
@@ -205,7 +204,7 @@
 </template>
 
 <script>
-import { mapActions } from "vuex";
+import { mapActions, mapState } from "vuex";
 export default {
   name: "NuevoProducto",
   data() {
@@ -227,7 +226,13 @@ export default {
     crearProducto() {
       // const producto = this.producto;
       // if (!producto.id || !producto.nombre || !producto.stock || !producto.precio) return;
-      this.crearNuevoProducto(this.prod);
+      if(this.productos.length <=7){
+        this.crearNuevoProducto(this.prod);
+        this.$refs["my-modal"].show();
+      }else{
+        // INSERTAR MODAL ACÀ
+        alert("LOGGER::: TORNEO COMPLETO, POR FAVOR ESPERA EL SIGUIENTE:::");
+      }
     },
     showModal() {
       this.$refs["my-modal"].show();
@@ -243,6 +248,7 @@ export default {
     readonly() {
       return this.state === "readonly";
     },
+    ...mapState(["productos", "titulos"])
   },
 };
 </script>
