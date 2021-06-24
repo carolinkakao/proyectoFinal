@@ -1,6 +1,6 @@
 <template>
   <header class="text-center container-fluid px-5 py-4">
-    <h1 class="mb-2 text-white">Instrucciones</h1>
+    <h2 class="mb-2 text-white">INSTRUCCIONES</h2>
     <b-row>
       <!-- Avatar 1 -->
       <b-col md="4">
@@ -11,7 +11,7 @@
           class="my-4"
         ></b-avatar>
         <b-modal id="modal-1" title="Inicia Sesión">
-          <p class="my-4">Inicia Sesión o Registrate en el sitio</p>
+          <p class="my-4">Regístrate en el sitio e inicia sesión.</p>
         </b-modal>
       </b-col>    
       <!-- Avatar 2 -->
@@ -22,8 +22,8 @@
           size="10rem"
           class="my-4"
         ></b-avatar>
-        <b-modal id="modal-2" title="Inscribete en el Torneo.">
-          <p class="my-4">Inscribete en el Torneo de Cartas Pokemon que este disponible. </p>
+        <b-modal id="modal-2" title="Inscríbete en el Torneo.">
+          <p class="my-4">Inscríbete en el Torneo de Cartas Pokemon que esté disponible. </p>
         </b-modal>
       </b-col>
       <!-- Avatar 3 -->
@@ -34,8 +34,8 @@
           size="10rem"
           class="my-4"
         ></b-avatar>
-        <b-modal id="modal-3" title="Mira tu Versus">
-          <p class="my-4">Anda a la vista "Torneos" y verás con que persona te toca competir. </p>
+        <b-modal id="modal-3" title="Descubre tu Versus">
+          <p class="my-4">Dírigite al menú y pincha en Toreneos, verás quien será tu competidor. </p>
         </b-modal>
       </b-col>
     </b-row>

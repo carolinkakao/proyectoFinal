@@ -1,19 +1,15 @@
 <template>
   <b-container fluid>
-    <h1>Mini Juego</h1>
-    <b-row>
+    <h2 class="pt-4">MINI JUEGO</h2>
+    <h4>¡Conoce las habilidades de tu pokemon favorito y su versión shiny!</h4>
+    <b-row class="p-4">
       <!-- Primera columna -->
-      <b-col cols="6">
+      <b-col md="6"	class="p-4">
         <!-- Formulario -->
         <b-form-select v-model="pokemon" class="mb-3 text-capitalize">
-          <b-form-select-option
-            :value="val.name"
-            v-for="(val, i) in pokemones"
-            :key="i"
-            >{{ val.name }}</b-form-select-option
-          >
+          <b-form-select-option :value="val.name" v-for="(val, i) in pokemones" :key="i">{{ val.name }}</b-form-select-option>
         </b-form-select>
-        <button @click="obtenerPokemon()">Buscar</button>
+        <b-button @click="obtenerPokemon()" class="ms-2">Buscar</b-button>
         <!-- Tabla -->
         <table class="table table-dark">
           <thead>
@@ -29,15 +25,13 @@
             </tr>
             <tr>
               <td><img :src="imagenTraseraPokemon" alt="Imagen Pokemon" /></td>
-              <td>
-                <img :src="imagenTraseraPokemonShiny" alt="Imagen Pokemon" />
-              </td>
+              <td><img :src="imagenTraseraPokemonShiny" alt="Imagen Pokemon" /></td>
             </tr>
           </tbody>
         </table>
       </b-col>
       <!-- Segunda columna -->
-      <b-col cols="6">
+      <b-col md="6"	class="p-4">
         <!-- Gráfico -->
         <Grafico 
         v-if="velocidadPokemon" 
@@ -130,5 +124,17 @@ export default {
 <style scoped>
 div {
   background-color: #ffea00;
+}
+select {
+  border: solid 3px #009BDF;
+  border-radius: 5px;
+  padding: .4rem 0;
+}
+button {
+  background-color: #009BDF;
+  border: solid 1px #009BDF
+}
+button:hover {
+  background-color: #212529;
 }
 </style>
