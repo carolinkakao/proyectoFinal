@@ -51,7 +51,7 @@ export default {
     ...mapActions(["getComunas"]),
   },
   created() {
-    this.getComunas();
+    // this.getComunas();
   },
 };
 </script>

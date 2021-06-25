@@ -1,64 +1,75 @@
 <template>
-  <b-container>
-    <b-row style="height: 100vh">
-      <b-col class="m-auto border p-4" cols="12" md="4">
-        <div class="button-box">
-          <div id="btn"></div>
-          <div class="boton-inicio">Inicio Sesión</div>
-        </div>
-        <div class="iconos-redes">
-          <img alt="Vue logo" src="../assets/733547.png" />
-          <img alt="Vue logo" src="../assets/733579.png" />
-          <img alt="Vue logo" src="../assets/2111463.png" />
-        </div>
-        <!--input-usuario-->
-        <b-input-group class="mb-2">
-          <b-input-group-prepend is-text>
-            <b-icon icon="person-fill"></b-icon>
-          </b-input-group-prepend>
-          <b-form-input
-            v-model="user"
-            type="text"
-            placeholder="Usuario"
-          ></b-form-input>
-        </b-input-group>
-        <!--input-contraseña-->
-        <b-input-group class="mb-2">
-          <b-input-group-prepend is-text>
-            <b-icon icon="lock-fill"></b-icon>
-          </b-input-group-prepend>
-          <b-form-input
-            v-model="pass"
-            type="text"
-            placeholder="Contraseña"
-          ></b-form-input>
-        </b-input-group>
-        <div>
-          <b-form-checkbox
-            class="text-center"
-            id="checkbox-1"
-            name="checkbox-1"
-          >
-            Recordar contraseña
-          </b-form-checkbox>
-        </div>
+  <div>
+    <Navbar />
 
-        <b-button
-          @click="login()"
-          variant="success"
-          class="boton-entrar me-3 mt-4"
-          >Inicio Sesión</b-button
-        >
+    <!-- Login -->
+    <div class="container h-100 login_container mb-5">
+    	<div class="d-flex justify-content-center h-100">
+    		<div class="user_card">
+          <!-- Logo -->
+    			<div class="d-flex justify-content-center">
+    				<div class="brand_logo_container">
+              <i class="fas fa-dragon brand_logo" ></i>
+    				</div>
+    			</div>
+          <!-- Formulario -->
+    			<div class="d-flex justify-content-center form_container">
+    				<form>
+              <!-- Input usuario -->
+    					<div class="input-group mb-3">
+    						<div class="input-group-append">
+    							<span class="input-group-text"><i class="fas fa-user"></i></span>
+    						</div>
+    						<input type="text" class="form-control input_user" placeholder="Usuario" v-model="user">
+    					</div>
+              <!-- Input contraseña -->
+    					<div class="input-group mb-2">
+    						<div class="input-group-append">
+    							<span class="input-group-text"><i class="fas fa-key"></i></span>
+    						</div>
+    						<input type="password" class="form-control input_pass" placeholder="Contraseña" v-model="pass">
+    					</div>
+              <!-- Sección recordar contraseña -->
+    					<div class="form-group">
+    						<div class="custom-control custom-checkbox">
+    							<input type="checkbox" class="custom-control-input">
+    							<label class="custom-control-label">Recordar contraseña</label>
+    						</div>
+    					</div>
+              <!-- Botón -->
+    					<div class="d-flex justify-content-center mt-3 login_container">
+    			 	    <button type="button" name="button" class="btn login_btn" @click="login()">Inicio Sesión</button>
+    			    </div>
+    				</form>
+    			</div>
+          <!-- Mensaje -->
+    			<div class="mt-4">
+    				<div class="d-flex justify-content-center">
+    					¿Olvidaste la contraseña?
+    				</div>
+    				<div class="d-flex justify-content-center">
+    					<a href="#">Recupérala aquí.</a>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
 
-        <p>¿Olvidaste la contraseña? Recupérala aquí.</p>
-      </b-col>
-    </b-row>
-  </b-container>
+    <Footer />
+  </div>
 </template>
+
 <script>
 import { mapActions } from "vuex";
+import Navbar from "@/components/Navbar.vue";
+import Footer from "@/components/Footer.vue";
+
 export default {
   name: "Login",
+  components: {
+    Navbar,
+    Footer,
+  },
   computed: {
     user: {
       get() {
@@ -82,51 +93,63 @@ export default {
   },
 };
 </script>
-<style lang="scss">
-.button-box {
-  width: 220px;
-  margin: 35px auto;
-  position: relative;
-  box-shadow: 0 0 20px 9px #ff61241f;
-  border-radius: 30px;
+
+<style scoped>
+.user_card {
+height: 400px;
+width: 500px;
+background: white;
+border: solid 5px #009BDF;
+position: relative;
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding: 10px;
+border-radius: 5px
 }
-.boton-inicio {
-  padding: 10px 60px;
-  position: relative;
-  cursor: pointer;
-  background: transparent;
-  border: 0;
-  outline: none;
+.brand_logo_container {
+	position: absolute;
+	height: 170px;
+	width: 170px;
+	top: -75px;
+	border-radius: 50%;
+	background: #009BDF;
+	padding: 10px;
 }
-#btn {
-  top: 0;
-  left: 0;
-  position: absolute;
-  width: 220px;
-  height: 100%;
-  background: linear-gradient(to right, #0dcaf0, #06b0ff);
-  border-radius: 30px;
+.brand_logo {
+  padding: 1rem;
+	font-size: 6rem;
+	border-radius: 50%;
+  color: #212529;
 }
-.iconos-redes {
-  margin: 30px auto;
-  text-align: center;
+.form_container {
+	margin-top: 100px;
 }
-.iconos-redes img {
-  width: 30px;
-  margin: 0 12px;
-  box-shadow: 0 0 20px 0 #7f7f7f3d;
-  cursor: pointer;
-  border-radius: 50%;
+.login_btn {
+	width: 100%;
+	background: #FFEA00;
+	color: white;
 }
-.boton-entrar {
-  width: 85%;
-  padding: 10px 30px;
-  cursor: pointer;
-  display: block;
-  margin: auto;
-  background: linear-gradient(to right, #0dcaf0, #06b0ff);
-  border: 0;
-  outline: none;
-  border-radius: 30px;
+.login_btn:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+.login_container {
+	padding: 0 2rem;
+}
+.input-group-text {
+	background: #FFEA00;
+	color: white;
+	border: 0;
+	border-radius: 0.25rem 0 0 0.25rem;
+  height: 2.5rem;
+}
+.input_user,
+.input_pass:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+.login_container {
+  margin-top: 13rem;
 }
 </style>

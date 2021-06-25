@@ -41,33 +41,7 @@
 
         <!-- Plan Paso a paso -->
         <Sidebar />
-        <!-- <div class="seccion-plan">
-          <a v-b-toggle.sidebar-no-header class="nav-link">Plan Paso a Paso</a>
-          <b-sidebar id="sidebar-no-header" aria-labelledby="sidebar-no-header-title" right no-header shadow>
-            <template #default="{ hide }">
-              <div class="p-3">
-                
-                <i class="far fa-times-circle fa-2x mb-2" @click="hide" style="color: #FFEA00;" data-toggle="tooltip" title="Cerrar"></i>
-                
-                <table class="table text-capitalize" >
-                  <thead>
-                    <tr>
-                      <th scope="col">Comuna</th>
-                      <th scope="col">Fase</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr v-for="(val, i) in comunas" :key="i">
-                      <td>{{ val.COMUNA }}</td>
-                      <td>{{val.Paso}}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </template>
-          </b-sidebar>
-        </div> -->
-
+        
         <!-- Carga masiva de datos a Firebase -->
         <!-- <div>
           <button @click="cargaMasiva">Carga Masiva</button> 
@@ -79,7 +53,6 @@
 </template>
 
 <script>
-// import { mapState, mapActions } from "vuex";
 import Sidebar from "@/components/Sidebar.vue";
 import firebase from "firebase";
 import json from "../../pasoapaso.json"
@@ -89,11 +62,7 @@ export default {
   components: {
     Sidebar,
   },
-  // computed: {
-  //   ...mapState(["comunas"]),
-  // },
   methods: {
-    // ...mapActions(["getComunas"]),
     // Función para realizar carga masiva de datos a Firebase
     async cargaMasiva() {
       json.forEach(async (comuna) => {
@@ -106,9 +75,6 @@ export default {
       });
     },
   },
-  // created() {
-  //   this.getComunas();
-  // },
 };
 </script>
 
