@@ -185,7 +185,7 @@ export default new Vuex.Store({
      // let ii = this.state.productos.length;
      // let largoTablaFireBase = (await firebase.firestore().collection("inscripciones").get()).size
       const nuevo = payload;
-      if (!nuevo) return;
+      if (!nuevo ) return;
         commit("agregarNuevoProducto", nuevo);
         await firebase.firestore().collection("inscripciones").add(nuevo); //este producto viene del componentr
       //actualizar el state
