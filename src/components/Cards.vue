@@ -33,7 +33,7 @@ export default {
         {
           id: 1,
           titulo: "Pokemon Chile Store",
-          imagen: "../../img/aviso2.jpeg",
+          imagen: "../../img/aviso1.jpeg",
           descripcion: "Nuestros amigos de Pokemon Chile Store tienen disponible Funko Pop, peluches, juegos de nintendo, figuras y todo sobre el mundo pokemon.",
           direccion: "https://www.instagram.com/pokemonchilestore.cl/?hl=es-la",
         },
