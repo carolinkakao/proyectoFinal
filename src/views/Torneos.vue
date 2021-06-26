@@ -1,12 +1,17 @@
 <template>
-  <Sorteo />
+<div>
+  <Cuartos />
+ 
+</div>
 </template>
 
 <script>
-import Sorteo from "@/components/Sorteo.vue";
+import Cuartos from "@/components/Cuartos.vue";
+
 export default {
   components: {
-    Sorteo,
+    Cuartos,
+
   },
 };
 </script>

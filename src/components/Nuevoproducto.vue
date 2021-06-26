@@ -3,6 +3,7 @@
   <div>
     <div class="container">
       <div class="row">
+        
         <!--Id jugadorr -->
         <b-form inline>
           <label class="sr-only" for="inline-form-input-name"></label>
