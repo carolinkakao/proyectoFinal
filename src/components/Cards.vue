@@ -16,7 +16,7 @@
           <b-card-text>
             {{val.descripcion}}
           </b-card-text>
-          <b-button :href="val.direccion">Visítalos en su Instagram</b-button>
+          <b-button target="_blank" :href="val.direccion">Visítalos en su Instagram</b-button>
         </b-card>
       </b-col>
     </b-row>
