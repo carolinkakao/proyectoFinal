@@ -10,8 +10,16 @@
           size="10rem"
           class="my-4"
         ></b-avatar>
-        <b-modal id="modal-1" title="Inicia Sesión">
-          <p class="my-4">Regístrate en el sitio e inicia sesión.</p>
+        <!-- Modal 1 -->
+        <b-modal id="modal-1">
+          <template v-slot:modal-header="{ close }">
+            <h5>Inicia Sesión</h5>
+            <i class="far fa-times-circle fa-2x mb-2" @click="close()" style="color: #ffea00" data-toggle="tooltip" title="Cerrar"></i>
+          </template>
+          <p>Regístrate en el sitio e inicia sesión.</p>
+          <template v-slot:modal-footer="{ ok }">
+            <b-button size="sm" @click="ok()">OK</b-button>
+          </template>
         </b-modal>
       </b-col>    
       <!-- Avatar 2 -->
@@ -22,8 +30,16 @@
           size="10rem"
           class="my-4"
         ></b-avatar>
-        <b-modal id="modal-2" title="Inscríbete en el Torneo.">
-          <p class="my-4">Inscríbete en el Torneo de Cartas Pokemon que esté disponible. </p>
+        <!-- Modal 2 -->
+        <b-modal id="modal-2">
+          <template v-slot:modal-header="{ close }">
+            <h5>Inscríbete en el Torneo.</h5>
+            <i class="far fa-times-circle fa-2x mb-2" @click="close()" style="color: #ffea00" data-toggle="tooltip" title="Cerrar"></i>
+          </template>
+          <p>Inscríbete en el Torneo de Cartas Pokemon que esté disponible.</p>
+          <template v-slot:modal-footer="{ ok }">
+            <b-button size="sm" @click="ok()">OK</b-button>
+          </template>
         </b-modal>
       </b-col>
       <!-- Avatar 3 -->
@@ -34,8 +50,16 @@
           size="10rem"
           class="my-4"
         ></b-avatar>
-        <b-modal id="modal-3" title="Descubre tu Versus">
-          <p class="my-4">Dírigite al menú y pincha en Toreneos, verás quien será tu competidor. </p>
+        <!-- Modal 3 -->
+        <b-modal id="modal-3">
+          <template v-slot:modal-header="{ close }">
+            <h5>Descubre tu Versus</h5>
+            <i class="far fa-times-circle fa-2x mb-2" @click="close()" style="color: #ffea00" data-toggle="tooltip" title="Cerrar"></i>
+          </template>
+          <p>Dírigite al menú y pincha en Toreneos, verás quien será tu competidor.</p>
+          <template v-slot:modal-footer="{ ok }">
+            <b-button size="sm" @click="ok()">OK</b-button>
+          </template>
         </b-modal>
       </b-col>
     </b-row>
@@ -58,5 +82,18 @@ span {
 span:hover {
   opacity: 0.5;
   border: 6px solid #FFF;
+}
+i:hover {
+  cursor: pointer;
+  font-size: 2.1rem;
+}
+button {
+  background-color: #009BDF;
+  border: 0;
+}
+button:hover {
+  background-color: #FFF;
+  border: 1px solid #009BDF;
+  color: #009BDF;
 }
 </style>

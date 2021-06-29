@@ -19,11 +19,11 @@ export default new Vuex.Store({
       },
 
       {
-        label: "Formato",
+        label: "Mazo",
         key: "formato",
       },
       {
-        label: "Id Jugador",
+        label: "Código",
         key: "idJugador",
       },
 

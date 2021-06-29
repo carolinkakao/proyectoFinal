@@ -65,6 +65,10 @@ a:hover {
   font-size: large;
   cursor: pointer;
 }
+i:hover {
+  cursor: pointer;
+  font-size: 2.1rem;
+}
 @media (max-width: 991.98px) {
   .seccion-plan {
     display: none;
