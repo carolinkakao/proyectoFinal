@@ -16,10 +16,6 @@
 
         <b-collapse id="nav-collapse" is-nav class="justify-content-center">
           <b-navbar-nav>
-            <!-- Link inscripciones -->
-            <b-nav-item>
-              <router-link to="/inscripciones" class="me-3">Inscripciones</router-link>
-            </b-nav-item>
             <!-- Link acerca -->
             <b-nav-item>
               <router-link to="/acerca" class="me-3">Acerca</router-link>
@@ -32,9 +28,9 @@
             <b-nav-item>
               <router-link to="/torneos">Torneos</router-link>
             </b-nav-item>
-            <!-- Link login -->
+            <!-- Link inscripciones -->
             <b-nav-item>
-              <router-link to="/login">Login</router-link>
+              <router-link to="/inscripciones" class="me-3">Inscripciones</router-link>
             </b-nav-item>
           </b-navbar-nav>
         </b-collapse>

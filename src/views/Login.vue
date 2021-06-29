@@ -117,9 +117,9 @@ border-radius: 5px
 	padding: 10px;
 }
 .brand_logo {
-  padding: 1rem;
-	font-size: 6rem;
-	border-radius: 50%;
+padding: 1rem;
+font-size: 6rem;
+border-radius: 50%;
   color: #212529;
 }
 .form_container {
