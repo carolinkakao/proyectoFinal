@@ -3,6 +3,8 @@
 
 <!--cards-->
 <b-container>
+  <b-row>
+  <b-col sm="12"	md="8"	lg="12"	xl="12">
 <div>
   <b-card-group class="tarjetas mt-5">
      <b-card
@@ -70,6 +72,8 @@
   </b-card>
   </b-card-group>
 </div>
+  </b-col>
+  </b-row>
 </b-container>
   
   </div>
