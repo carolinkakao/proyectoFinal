@@ -38,7 +38,7 @@
         <!-- Plan Paso a paso -->
         <Sidebar />
         
-        <!-- Carga masiva de datos a Firebase -->
+        <!-- Carga masiva de datos a Firebase --> -->
         <!-- <div>
           <button @click="cargaMasiva">Carga Masiva</button> 
         </div> -->
