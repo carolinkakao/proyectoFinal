@@ -17,7 +17,7 @@
           >
             <b-card-text class="mover-jugador1">{{ this.jugador1 }}</b-card-text>
             <b-card-text class="mover-jugador">{{ this.jugador2 }}</b-card-text>
-            <img alt="versus" src="../assets/versus3.png" />
+            <img class="img-responsive" alt="versus" src="../assets/versus3.png" />
             <p>Esta es la sala para jugar tu duelo: {{this.url}}</p>
            
           </b-card>
@@ -31,7 +31,7 @@
           >
             <b-card-text class="mover-jugador1">{{ this.jugador3 }}</b-card-text>
             <b-card-text class="mover-jugador">{{ this.jugador4 }}</b-card-text>
-            <img alt="versus" src="../assets/versus3.png" />
+            <img class="img-responsive" alt="versus" src="../assets/versus3.png" />
              <p>Esta es la sala para jugar tu duelo: {{this.url}}</p>
           </b-card>
         
@@ -49,7 +49,7 @@
           >
             <b-card-text class="mover-jugador1">{{ this.jugador5 }}</b-card-text>
             <b-card-text class="mover-jugador">{{ this.jugador6 }}</b-card-text>
-            <img alt="versus" src="../assets/versus3.png" />
+            <img class="img-responsive" alt="versus" src="../assets/versus3.png" />
              <p>Esta es la sala para jugar tu duelo: {{this.url}}</p>
           </b-card>
           <!--tarjeta 4-->
@@ -62,7 +62,7 @@
           >
             <b-card-text class="mover-jugador1">{{ this.jugador7 }}</b-card-text>
             <b-card-text class="mover-jugador">{{ this.jugador8 }}</b-card-text>
-            <img alt="versus" src="../assets/versus3.png" />
+            <img class="img-responsive" alt="versus" src="../assets/versus3.png" />
              <p>Esta es la sala para jugar tu duelo: {{this.url}}</p>
           </b-card>
    
@@ -85,7 +85,7 @@
           >
             <b-card-text class="mover-jugador1">{{ this.jugador9 }}</b-card-text>
             <b-card-text class="mover-jugador">{{ this.jugador10 }}</b-card-text>
-            <img alt="versus" src="../assets/versus3.png" />
+            <img class="img-responsive" alt="versus" src="../assets/versus3.png" />
              <p>Esta es la sala para jugar tu duelo: {{this.url}}</p>
           </b-card>
    <!--tarjeta 2 semifinales-->
@@ -98,7 +98,7 @@
           >
             <b-card-text class="mover-jugador1">{{ this.jugador11 }}</b-card-text>
             <b-card-text class="mover-jugador">{{ this.jugador12 }}</b-card-text>
-            <img alt="versus" src="../assets/versus3.png" />
+            <img class="img-responsive" alt="versus" src="../assets/versus3.png" />
              <p>Esta es la sala para jugar tu duelo: {{this.url}}</p>
           </b-card>
      </b-row>
@@ -116,7 +116,7 @@
           >
             <b-card-text class="mover-jugador1">{{ this.jugador13 }}</b-card-text>
             <b-card-text class="mover-jugador">{{ this.jugador14 }}</b-card-text>
-            <img alt="versus" src="../assets/trofeo.png" />
+            <img class="img-responsive" alt="versus" src="../assets/trofeo.png" />
              <p>Esta es la sala para jugar tu duelo: {{this.url}}</p>
           </b-card>
      </b-row>
@@ -134,7 +134,7 @@
           >
             <b-card-text >Jugador 1: {{this.jugador_1}}</b-card-text>
             <b-card-text >Jugador 2:{{this.jugador_2}}</b-card-text>
-            <img alt="versus" src="../assets/versus3.png" />
+            <img class="img-responsive" alt="versus" src="../assets/versus3.png" />
             <p>Esta es la sala para jugar tu duelo: {{this.url}}</p>
              
           </b-card>
@@ -277,5 +277,8 @@ border: 2px solid #ED0080;
     position: relative;
     left:15rem;
   }
+}
+.img-responsive{
+  width: 5rem;
 }
 </style>
