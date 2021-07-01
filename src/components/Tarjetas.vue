@@ -79,3 +79,9 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "Tarjetas",
+}
+</script>
+

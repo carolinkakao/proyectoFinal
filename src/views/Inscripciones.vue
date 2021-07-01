@@ -23,7 +23,7 @@
       <b-row>
         <b-col cols="12">
           <Nuevoproducto />
-          <Tabla :filas="productos" :encabezados="titulos" />
+          <Tabla :filas="productos" :encabezados="titulos" /> 
           <Editar/>
         </b-col>
       </b-row>

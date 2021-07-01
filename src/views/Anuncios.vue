@@ -12,7 +12,7 @@ import Cards from "@/components/Cards.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
-  name: "Juego",
+  name: "Anuncios",
   components: {
     Navbar,
     Cards,

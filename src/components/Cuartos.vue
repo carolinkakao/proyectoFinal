@@ -145,6 +145,7 @@
 <script>
 import { mapState } from "vuex";
 export default {
+  name: "Cuartos",
   data() {
     return {
       jugador1: "", //se almacenan el nombre de jugadores ya inscritos

@@ -40,6 +40,13 @@
  
 </div>
 </template>
+
+<script>
+export default {
+  name: "JuegoCartas",
+}
+</script>
+
 <style lang="scss" scoped>
 img{
     width: 40rem;

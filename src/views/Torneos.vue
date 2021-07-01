@@ -12,6 +12,7 @@ import Navbar from "@/components/Navbar.vue";
 import Cuartos from "@/components/Cuartos.vue";
 import Footer from "@/components/Footer.vue";
 export default {
+  name: "Torneos",
   components: {
     Cuartos,
     Navbar,

@@ -16,6 +16,7 @@ import Tarjetas from "@/components/Tarjetas.vue";
 import JuegoCartas from "@/components/JuegoCartas.vue";
 import Footer from "@/components/Footer.vue";
 export default {
+  name: "Acerca",
   components:{
     Tarjetas,
     JuegoCartas,
